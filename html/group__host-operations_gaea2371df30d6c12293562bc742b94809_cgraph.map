@@ -1,0 +1,6 @@
+<map id="rush_op_create_vhost" name="rush_op_create_vhost">
+<area shape="rect" id="node2" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters." alt="" coords="431,5,558,32"/>
+<area shape="rect" id="node3" href="$group__host-operations.html#ga7fdc6399e7f4cdd16bddc1edb83ae691" title="Delete the apache virtual hosts config." alt="" coords="209,43,362,69"/>
+<area shape="rect" id="node5" href="$group__host-operations.html#ga8504eec2d10be687ef288febb92724a5" title="A helper function to restart apache." alt="" coords="411,132,578,159"/>
+<area shape="rect" id="node4" href="$group__command__helpers.html#gad9c2801a202d4057dc1986fb1df7df7e" title="A wrapper for drush_shell_exec() ." alt="" coords="435,81,554,108"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="rush_invoke" name="rush_invoke">
+<area shape="rect" id="node2" href="$group__site-operations.html#ga74f289e6d348b8e2fdd16ebcbb6f06e2" title="Wrapper for drush make." alt="" coords="171,5,282,32"/>
+<area shape="rect" id="node3" href="$group__site-operations.html#gade018bf2b23c479642c87b6495ec70c8" title="Wrapper for drush site&#45;install." alt="" coords="183,56,270,83"/>
+<area shape="rect" id="node4" href="$group__db-operations.html#ga52d1a40341f317c06cf3c6cfe672be71" title="Wrapper for drush sql&#45;create." alt="" coords="157,107,296,133"/>
+<area shape="rect" id="node5" href="$group__db-operations.html#ga615675fb31780c1398526ff3f4a04f68" title="Wrapper for drush sql&#45;dump." alt="" coords="159,157,295,184"/>
+<area shape="rect" id="node6" href="$group__db-operations.html#gab74ba7b14ae645c89543ea77c0b814a7" title="Run supplied query using drush sql&#45;query." alt="" coords="159,208,295,235"/>
+<area shape="rect" id="node8" href="$group__db-operations.html#ga35f1d004c0681725eeed37b9cc3d57a3" title="Run the sql in $params[&#39;db&#39;][&#39;file_path&#39;]." alt="" coords="147,259,307,285"/>
+<area shape="rect" id="node7" href="$group__db-operations.html#gac5d4f4bf3f1a8df902c91ddf2cb8cbf5" title="Run supplied query using drush sql&#45;query." alt="" coords="355,208,523,235"/>
+</map>
