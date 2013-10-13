@@ -1,5 +1,5 @@
 <map id="Bootstrap" name="Bootstrap">
-<area shape="rect" id="node1" href="$group__commandcallbacks.html" title="Callback functions for each Drush Rush command." alt="" coords="135,56,319,83"/>
-<area shape="rect" id="node2" href="$group__drushhooks.html" title="Drush hooks implemented by Rush." alt="" coords="177,5,276,32"/>
-<area shape="rect" id="node4" href="$group__command__execution.html" title="Functions used by the drush rush command to execute operations." alt="" coords="133,107,320,133"/>
+<area shape="rect" id="node1" href="$group__commandcallbacks.html" title="Callback functions for each Drush Rush command. " alt="" coords="135,56,319,83"/>
+<area shape="rect" id="node2" href="$group__drushhooks.html" title="Drush hooks implemented by Rush. " alt="" coords="177,5,276,32"/>
+<area shape="rect" id="node4" href="$group__command__execution.html" title="Functions used by the drush rush command to execute operations. " alt="" coords="133,107,320,133"/>
 </map>

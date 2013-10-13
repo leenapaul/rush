@@ -1,5 +1,5 @@
 <map id="rush_op_delete_dns" name="rush_op_delete_dns">
-<area shape="rect" id="node2" href="$group__host-operations.html#ga4f0904a2ec318b43e6e1cf51b44f863e" title="A helper function to check if the dns entry exists." alt="" coords="197,5,323,32"/>
-<area shape="rect" id="node4" href="$group__command__helpers.html#gad9c2801a202d4057dc1986fb1df7df7e" title="A wrapper for drush_shell_exec() ." alt="" coords="201,56,319,83"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters." alt="" coords="371,5,498,32"/>
+<area shape="rect" id="node2" href="$group__host-operations.html#ga4f0904a2ec318b43e6e1cf51b44f863e" title="A helper function to check if the dns entry exists. " alt="" coords="197,5,323,32"/>
+<area shape="rect" id="node4" href="$group__command__helpers.html#gad9c2801a202d4057dc1986fb1df7df7e" title="A wrapper for drush_shell_exec() . " alt="" coords="201,56,319,83"/>
+<area shape="rect" id="node3" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="371,5,498,32"/>
 </map>

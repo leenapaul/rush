@@ -1,9 +1,9 @@
 <map id="rush_self_path" name="rush_self_path">
-<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations." alt="" coords="163,81,341,108"/>
-<area shape="rect" id="node3" href="$group__commandcallbacks.html#ga7302b9467de499375bc2b005f3779554" title="Drush rush&#45;list command callback." alt="" coords="413,5,525,32"/>
-<area shape="rect" id="node4" href="$group__filesystem.html#gae887ebc7c373bbf0209a58bd711dd20b" title="Helper function to confirm important directories exists on the system." alt="" coords="390,56,549,83"/>
-<area shape="rect" id="node5" href="$group__get__ops.html#ga544e7229e2a6c13499001cd91cd9dd8e" title="Parse rush operations files and return an array of operations." alt="" coords="397,107,541,133"/>
-<area shape="rect" id="node8" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters." alt="" coords="407,157,532,184"/>
-<area shape="rect" id="node6" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback." alt="" coords="617,107,706,133"/>
-<area shape="rect" id="node7" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback." alt="" coords="598,157,725,184"/>
+<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="163,81,341,108"/>
+<area shape="rect" id="node3" href="$group__commandcallbacks.html#ga7302b9467de499375bc2b005f3779554" title="Drush rush&#45;list command callback. " alt="" coords="413,5,525,32"/>
+<area shape="rect" id="node4" href="$group__filesystem.html#gae887ebc7c373bbf0209a58bd711dd20b" title="Helper function to confirm important directories exists on the system. " alt="" coords="390,56,549,83"/>
+<area shape="rect" id="node5" href="$group__get__ops.html#ga544e7229e2a6c13499001cd91cd9dd8e" title="Parse rush operations files and return an array of operations. " alt="" coords="397,107,541,133"/>
+<area shape="rect" id="node8" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters. " alt="" coords="407,157,532,184"/>
+<area shape="rect" id="node6" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback. " alt="" coords="617,107,706,133"/>
+<area shape="rect" id="node7" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback. " alt="" coords="598,157,725,184"/>
 </map>

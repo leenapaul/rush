@@ -31,6 +31,7 @@ var searchData=
   ['rush_5fop_5fgit_5fcheckout',['rush_op_git_checkout',['../group__repo-operations.html#ga77738b12ac69fe8a5c0c2d441d643ad4',1,'rush.repo.inc']]],
   ['rush_5fop_5fgit_5fclone',['rush_op_git_clone',['../group__repo-operations.html#ga3c9cb4c727f602106630260c573278bf',1,'rush.repo.inc']]],
   ['rush_5fop_5fgit_5fcommit',['rush_op_git_commit',['../group__repo-operations.html#ga2d1fc7713417cb8a5095c22513cb77d1',1,'rush.repo.inc']]],
+  ['rush_5fop_5fgit_5fcreate_5fbranch',['rush_op_git_create_branch',['../group__repo-operations.html#ga1b59a3d03a02b35c085f9397871d77a5',1,'rush.repo.inc']]],
   ['rush_5fop_5fgit_5finit',['rush_op_git_init',['../group__repo-operations.html#gaccb5e69cafa6fe745d128bf82635e0c9',1,'rush.repo.inc']]],
   ['rush_5fop_5fgit_5fpull',['rush_op_git_pull',['../group__repo-operations.html#ga790eea1ca3e3968bce119b4f61bfa94f',1,'rush.repo.inc']]],
   ['rush_5fop_5fgit_5fpush',['rush_op_git_push',['../group__repo-operations.html#ga5588e6526d2c64956de26206e893dc00',1,'rush.repo.inc']]],

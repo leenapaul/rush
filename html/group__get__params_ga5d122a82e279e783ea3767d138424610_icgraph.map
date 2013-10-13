@@ -1,6 +1,6 @@
 <map id="_rush_derive_parameters_db" name="_rush_derive_parameters_db">
-<area shape="rect" id="node2" href="$group__get__params.html#ga31dd7ffa81ecf01ffe2ade129ec9998d" title="Derive missing parameters." alt="" coords="251,31,424,57"/>
-<area shape="rect" id="node3" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters." alt="" coords="472,31,597,57"/>
-<area shape="rect" id="node4" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback." alt="" coords="665,5,754,32"/>
-<area shape="rect" id="node5" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback." alt="" coords="646,56,773,83"/>
+<area shape="rect" id="node2" href="$group__get__params.html#ga31dd7ffa81ecf01ffe2ade129ec9998d" title="Derive missing parameters. " alt="" coords="251,31,424,57"/>
+<area shape="rect" id="node3" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters. " alt="" coords="472,31,597,57"/>
+<area shape="rect" id="node4" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback. " alt="" coords="665,5,754,32"/>
+<area shape="rect" id="node5" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback. " alt="" coords="646,56,773,83"/>
 </map>

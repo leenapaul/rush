@@ -1,4 +1,4 @@
 <map id="rush_op_restart_apache" name="rush_op_restart_apache">
-<area shape="rect" id="node2" href="$group__host-operations.html#gaea2371df30d6c12293562bc742b94809" title="Configure apache virtual host file using the template." alt="" coords="425,5,578,32"/>
-<area shape="rect" id="node3" href="$group__host-operations.html#ga7fdc6399e7f4cdd16bddc1edb83ae691" title="Delete the apache virtual hosts config." alt="" coords="222,31,375,57"/>
+<area shape="rect" id="node2" href="$group__host-operations.html#gaea2371df30d6c12293562bc742b94809" title="Configure apache virtual host file using the template. " alt="" coords="425,5,578,32"/>
+<area shape="rect" id="node3" href="$group__host-operations.html#ga7fdc6399e7f4cdd16bddc1edb83ae691" title="Delete the apache virtual hosts config. " alt="" coords="222,31,375,57"/>
 </map>

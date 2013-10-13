@@ -1,6 +1,6 @@
 <map id="rush_message_wrapper" name="rush_message_wrapper">
-<area shape="rect" id="node2" href="$group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd" title="Helper function to print the params associated with the defined show mode." alt="" coords="228,31,321,57"/>
-<area shape="rect" id="node5" href="$group__commandcallbacks.html#ga7302b9467de499375bc2b005f3779554" title="Drush rush&#45;list command callback." alt="" coords="219,81,331,108"/>
-<area shape="rect" id="node3" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback." alt="" coords="398,5,487,32"/>
-<area shape="rect" id="node4" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback." alt="" coords="379,56,506,83"/>
+<area shape="rect" id="node2" href="$group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd" title="Helper function to print the params associated with the defined show mode. " alt="" coords="228,31,321,57"/>
+<area shape="rect" id="node5" href="$group__commandcallbacks.html#ga7302b9467de499375bc2b005f3779554" title="Drush rush&#45;list command callback. " alt="" coords="219,81,331,108"/>
+<area shape="rect" id="node3" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback. " alt="" coords="398,5,487,32"/>
+<area shape="rect" id="node4" href="$group__commandcallbacks.html#ga7068812064767011f14560a4d963843d" title="Drush rush&#45;show command callback. " alt="" coords="379,56,506,83"/>
 </map>

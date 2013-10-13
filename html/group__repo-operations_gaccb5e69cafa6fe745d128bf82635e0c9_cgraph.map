@@ -1,4 +1,4 @@
 <map id="rush_op_git_init" name="rush_op_git_init">
-<area shape="rect" id="node2" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters." alt="" coords="171,5,298,32"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#gad9c2801a202d4057dc1986fb1df7df7e" title="A wrapper for drush_shell_exec() ." alt="" coords="175,56,294,83"/>
+<area shape="rect" id="node2" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="171,5,298,32"/>
+<area shape="rect" id="node3" href="$group__command__helpers.html#gad9c2801a202d4057dc1986fb1df7df7e" title="A wrapper for drush_shell_exec() . " alt="" coords="175,56,294,83"/>
 </map>

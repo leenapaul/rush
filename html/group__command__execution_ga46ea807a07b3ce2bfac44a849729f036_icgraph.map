@@ -1,4 +1,4 @@
 <map id="rush_command_exec" name="rush_command_exec">
-<area shape="rect" id="node2" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback." alt="" coords="223,5,313,32"/>
-<area shape="rect" id="node3" href="$group__site-operations.html#ga1df013098ef10a6bd7fad8a7384e80aa" title="Open the defined site URL in the default browser." alt="" coords="203,56,333,83"/>
+<area shape="rect" id="node2" href="$group__commandcallbacks.html#ga7462df2e5f0265288ce9beb03ea9c3a9" title="Drush rush command callback. " alt="" coords="223,5,313,32"/>
+<area shape="rect" id="node3" href="$group__site-operations.html#ga1df013098ef10a6bd7fad8a7384e80aa" title="Open the defined site URL in the default browser. " alt="" coords="203,56,333,83"/>
 </map>

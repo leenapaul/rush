@@ -1,35 +1,36 @@
 <map id="rush_empty_error" name="rush_empty_error">
-<area shape="rect" id="node2" href="$group__repo-operations.html#gab32f65c07e0e3171507ebbcff175c368" title="Create a remote repo using GITHUB&#39;s api." alt="" coords="205,5,355,46"/>
-<area shape="rect" id="node3" href="$group__host-operations.html#ga4f0904a2ec318b43e6e1cf51b44f863e" title="A helper function to check if the dns entry exists." alt="" coords="217,71,343,97"/>
-<area shape="rect" id="node6" href="$group__site-operations.html#gae399d6845d09fe66da37c5fd9d1e0f80" title="Prepare options for rush_op_si(); a wrapper for drush site&#45;install." alt="" coords="205,575,355,601"/>
-<area shape="rect" id="node8" href="$group__utility-operations.html#ga3c1384f209dca21952d7db3be092107b" title="Function to verify required params exist for rush_op_create_settings_local()." alt="" coords="208,122,352,163"/>
-<area shape="rect" id="node10" href="$group__filesystem-operations.html#gab57a4e5e62eab79975bf1e22490eee34" title="Create the build directory at the designated path." alt="" coords="205,239,355,281"/>
-<area shape="rect" id="node11" href="$group__filesystem-operations.html#gab1e7bb951be181c2474c6511a6459dde" title="Create directories within the designated directory." alt="" coords="188,305,372,332"/>
-<area shape="rect" id="node12" href="$group__filesystem-operations.html#ga2b61540f0487e593f72b9a05924963fe" title="Create files within the designated directory." alt="" coords="207,356,353,383"/>
-<area shape="rect" id="node13" href="$group__filesystem-operations.html#gaa92a82c99272ff0474af8f4375b7751b" title="Create a .gitignore file within the designated directory." alt="" coords="212,407,348,449"/>
-<area shape="rect" id="node14" href="$group__repo-operations.html#gae254d675025fc02ec84f8f7135e82d43" title="Create a remote repo using the given repo type." alt="" coords="181,473,379,500"/>
-<area shape="rect" id="node15" href="$group__host-operations.html#gaea2371df30d6c12293562bc742b94809" title="Configure apache virtual host file using the template." alt="" coords="434,356,587,383"/>
-<area shape="rect" id="node16" href="$group__host-operations.html#ga7fdc6399e7f4cdd16bddc1edb83ae691" title="Delete the apache virtual hosts config." alt="" coords="203,524,357,551"/>
-<area shape="rect" id="node17" href="$group__filesystem-operations.html#ga67e8de6a153733b232866e2c3ca098a8" title="Destroy the build directory at the designated path." alt="" coords="201,626,359,667"/>
-<area shape="rect" id="node18" href="$group__repo-operations.html#gaa211c35ed3a554f495d25f6128b4271a" title="Run git flow init &#45;d in the specified directory." alt="" coords="217,692,343,719"/>
-<area shape="rect" id="node19" href="$group__repo-operations.html#ga3efd257f0a9d5d6a9bd675fce4d470ac" title="Run git add &#45;&#45;all in the specified directory." alt="" coords="219,743,341,769"/>
-<area shape="rect" id="node20" href="$group__repo-operations.html#gac0fbef290222ec0604092e9b5b4a8175" title="Run git branch to create a branch with the specified name." alt="" coords="210,793,350,820"/>
-<area shape="rect" id="node21" href="$group__repo-operations.html#ga77738b12ac69fe8a5c0c2d441d643ad4" title="Run git checkout to checkout the specified branch, tag, or commit ID." alt="" coords="204,844,356,871"/>
-<area shape="rect" id="node22" href="$group__repo-operations.html#ga3c9cb4c727f602106630260c573278bf" title="Run git clone into the specified directory." alt="" coords="215,895,345,921"/>
-<area shape="rect" id="node23" href="$group__repo-operations.html#ga2d1fc7713417cb8a5095c22513cb77d1" title="Run git commit &#45;&#45;all with a commit message." alt="" coords="209,945,351,972"/>
-<area shape="rect" id="node24" href="$group__repo-operations.html#gaccb5e69cafa6fe745d128bf82635e0c9" title="Run git init in the specified directory." alt="" coords="222,996,338,1023"/>
-<area shape="rect" id="node25" href="$group__repo-operations.html#ga790eea1ca3e3968bce119b4f61bfa94f" title="Run git pull in the specified directory." alt="" coords="220,1047,340,1073"/>
-<area shape="rect" id="node26" href="$group__repo-operations.html#ga5588e6526d2c64956de26206e893dc00" title="Run git push in the specified directory." alt="" coords="216,1097,344,1124"/>
-<area shape="rect" id="node27" href="$group__repo-operations.html#ga89a60b3c5ac99ff4ed385e50eeafed3e" title="Run git remote add in the specified directory." alt="" coords="195,1148,365,1175"/>
-<area shape="rect" id="node28" href="$group__site-operations.html#ga74f289e6d348b8e2fdd16ebcbb6f06e2" title="Wrapper for drush make." alt="" coords="225,1199,335,1225"/>
-<area shape="rect" id="node29" href="$group__site-operations.html#ga1df013098ef10a6bd7fad8a7384e80aa" title="Open the defined site URL in the default browser." alt="" coords="215,1249,345,1276"/>
-<area shape="rect" id="node7" href="$group__site-operations.html#gade018bf2b23c479642c87b6495ec70c8" title="Wrapper for drush site&#45;install." alt="" coords="467,937,554,964"/>
-<area shape="rect" id="node30" href="$group__db-operations.html#ga52d1a40341f317c06cf3c6cfe672be71" title="Wrapper for drush sql&#45;create." alt="" coords="211,1351,349,1377"/>
-<area shape="rect" id="node31" href="$group__db-operations.html#gac5d4f4bf3f1a8df902c91ddf2cb8cbf5" title="Run supplied query using drush sql&#45;query." alt="" coords="427,1452,595,1479"/>
-<area shape="rect" id="node32" href="$group__db-operations.html#ga615675fb31780c1398526ff3f4a04f68" title="Wrapper for drush sql&#45;dump." alt="" coords="212,1452,348,1479"/>
-<area shape="rect" id="node33" href="$group__db-operations.html#gab74ba7b14ae645c89543ea77c0b814a7" title="Run supplied query using drush sql&#45;query." alt="" coords="212,1503,348,1529"/>
-<area shape="rect" id="node34" href="$group__db-operations.html#ga35f1d004c0681725eeed37b9cc3d57a3" title="Run the sql in $params[&#39;db&#39;][&#39;file_path&#39;]." alt="" coords="200,1553,360,1580"/>
-<area shape="rect" id="node4" href="$group__host-operations.html#ga08657d7dd6f255ef79248eb699f79f07" title="Create the DNS entry." alt="" coords="439,20,583,47"/>
-<area shape="rect" id="node5" href="$group__host-operations.html#gadcca21dc240a605afa6ded65315162fa" title="Delete the DNS entry." alt="" coords="439,71,582,97"/>
-<area shape="rect" id="node9" href="$group__utility-operations.html#gabd2987d3295e1f6d7cd76658b50fa039" title="Create a settings.local.php file." alt="" coords="427,122,595,163"/>
+<area shape="rect" id="node2" href="$group__repo-operations.html#gab32f65c07e0e3171507ebbcff175c368" title="Create a remote repo using GITHUB&#39;s api. " alt="" coords="205,5,355,46"/>
+<area shape="rect" id="node3" href="$group__host-operations.html#ga4f0904a2ec318b43e6e1cf51b44f863e" title="A helper function to check if the dns entry exists. " alt="" coords="217,71,343,97"/>
+<area shape="rect" id="node6" href="$group__site-operations.html#gae399d6845d09fe66da37c5fd9d1e0f80" title="Prepare options for rush_op_si(); a wrapper for drush site&#45;install. " alt="" coords="205,1367,355,1393"/>
+<area shape="rect" id="node8" href="$group__utility-operations.html#ga3c1384f209dca21952d7db3be092107b" title="Function to verify required params exist for rush_op_create_settings_local(). " alt="" coords="208,122,352,163"/>
+<area shape="rect" id="node10" href="$group__filesystem-operations.html#gab57a4e5e62eab79975bf1e22490eee34" title="Create the build directory at the designated path. " alt="" coords="205,239,355,281"/>
+<area shape="rect" id="node11" href="$group__filesystem-operations.html#gab1e7bb951be181c2474c6511a6459dde" title="Create directories within the designated directory. " alt="" coords="188,305,372,332"/>
+<area shape="rect" id="node12" href="$group__filesystem-operations.html#ga2b61540f0487e593f72b9a05924963fe" title="Create files within the designated directory. " alt="" coords="207,356,353,383"/>
+<area shape="rect" id="node13" href="$group__filesystem-operations.html#gaa92a82c99272ff0474af8f4375b7751b" title="Create a .gitignore file within the designated directory. " alt="" coords="212,407,348,449"/>
+<area shape="rect" id="node14" href="$group__repo-operations.html#gae254d675025fc02ec84f8f7135e82d43" title="Create a remote repo using the given repo type. " alt="" coords="181,473,379,500"/>
+<area shape="rect" id="node15" href="$group__host-operations.html#gaea2371df30d6c12293562bc742b94809" title="Configure apache virtual host file using the template. " alt="" coords="434,356,587,383"/>
+<area shape="rect" id="node16" href="$group__host-operations.html#ga7fdc6399e7f4cdd16bddc1edb83ae691" title="Delete the apache virtual hosts config. " alt="" coords="203,188,357,215"/>
+<area shape="rect" id="node17" href="$group__filesystem-operations.html#ga67e8de6a153733b232866e2c3ca098a8" title="Destroy the build directory at the designated path. " alt="" coords="201,626,359,667"/>
+<area shape="rect" id="node18" href="$group__repo-operations.html#gaa211c35ed3a554f495d25f6128b4271a" title="Run git flow init &#45;d in the specified directory. " alt="" coords="217,692,343,719"/>
+<area shape="rect" id="node19" href="$group__repo-operations.html#ga3efd257f0a9d5d6a9bd675fce4d470ac" title="Run git add &#45;&#45;all in the specified directory. " alt="" coords="219,743,341,769"/>
+<area shape="rect" id="node20" href="$group__repo-operations.html#gac0fbef290222ec0604092e9b5b4a8175" title="Run git branch to create a branch with the specified name. " alt="" coords="210,793,350,820"/>
+<area shape="rect" id="node21" href="$group__repo-operations.html#ga77738b12ac69fe8a5c0c2d441d643ad4" title="Run git checkout to checkout the specified branch, tag, or commit ID. " alt="" coords="204,844,356,871"/>
+<area shape="rect" id="node22" href="$group__repo-operations.html#ga3c9cb4c727f602106630260c573278bf" title="Run git clone into the specified directory. " alt="" coords="215,895,345,921"/>
+<area shape="rect" id="node23" href="$group__repo-operations.html#ga2d1fc7713417cb8a5095c22513cb77d1" title="Run git commit &#45;&#45;all with a commit message. " alt="" coords="209,945,351,972"/>
+<area shape="rect" id="node24" href="$group__repo-operations.html#ga1b59a3d03a02b35c085f9397871d77a5" title="Run git checkout &#45;b to create and checkout a new branch with the specified name. " alt="" coords="212,997,348,1038"/>
+<area shape="rect" id="node25" href="$group__repo-operations.html#gaccb5e69cafa6fe745d128bf82635e0c9" title="Run git init in the specified directory. " alt="" coords="222,1063,338,1089"/>
+<area shape="rect" id="node26" href="$group__repo-operations.html#ga790eea1ca3e3968bce119b4f61bfa94f" title="Run git pull in the specified directory. " alt="" coords="220,1113,340,1140"/>
+<area shape="rect" id="node27" href="$group__repo-operations.html#ga5588e6526d2c64956de26206e893dc00" title="Run git push in the specified directory. " alt="" coords="216,1164,344,1191"/>
+<area shape="rect" id="node28" href="$group__repo-operations.html#ga89a60b3c5ac99ff4ed385e50eeafed3e" title="Run git remote add in the specified directory. " alt="" coords="195,1215,365,1241"/>
+<area shape="rect" id="node29" href="$group__site-operations.html#ga74f289e6d348b8e2fdd16ebcbb6f06e2" title="Wrapper for drush make. " alt="" coords="225,1265,335,1292"/>
+<area shape="rect" id="node30" href="$group__site-operations.html#ga1df013098ef10a6bd7fad8a7384e80aa" title="Open the defined site URL in the default browser. " alt="" coords="215,1316,345,1343"/>
+<area shape="rect" id="node7" href="$group__site-operations.html#gade018bf2b23c479642c87b6495ec70c8" title="Wrapper for drush site&#45;install. " alt="" coords="467,971,554,997"/>
+<area shape="rect" id="node31" href="$group__db-operations.html#ga52d1a40341f317c06cf3c6cfe672be71" title="Wrapper for drush sql&#45;create. " alt="" coords="211,1417,349,1444"/>
+<area shape="rect" id="node32" href="$group__db-operations.html#gac5d4f4bf3f1a8df902c91ddf2cb8cbf5" title="Run supplied query using drush sql&#45;query. " alt="" coords="427,1519,595,1545"/>
+<area shape="rect" id="node33" href="$group__db-operations.html#ga615675fb31780c1398526ff3f4a04f68" title="Wrapper for drush sql&#45;dump. " alt="" coords="212,1519,348,1545"/>
+<area shape="rect" id="node34" href="$group__db-operations.html#gab74ba7b14ae645c89543ea77c0b814a7" title="Run supplied query using drush sql&#45;query. " alt="" coords="212,1468,348,1495"/>
+<area shape="rect" id="node35" href="$group__db-operations.html#ga35f1d004c0681725eeed37b9cc3d57a3" title="Run the sql in $params[&#39;db&#39;][&#39;file_path&#39;]. " alt="" coords="200,1620,360,1647"/>
+<area shape="rect" id="node4" href="$group__host-operations.html#ga08657d7dd6f255ef79248eb699f79f07" title="Create the DNS entry. " alt="" coords="439,20,583,47"/>
+<area shape="rect" id="node5" href="$group__host-operations.html#gadcca21dc240a605afa6ded65315162fa" title="Delete the DNS entry. " alt="" coords="439,71,582,97"/>
+<area shape="rect" id="node9" href="$group__utility-operations.html#gabd2987d3295e1f6d7cd76658b50fa039" title="Create a settings.local.php file. " alt="" coords="427,122,595,163"/>
 </map>

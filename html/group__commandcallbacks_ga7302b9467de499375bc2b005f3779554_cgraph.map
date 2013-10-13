@@ -1,6 +1,6 @@
 <map id="drush_rush_list" name="drush_rush_list">
-<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations." alt="" coords="166,5,343,32"/>
-<area shape="rect" id="node4" href="$group__filesystem.html#gae75a3a92e889b0f2ac8aa709904b3e18" title="List the directories and files in the specified root directory." alt="" coords="203,56,306,83"/>
-<area shape="rect" id="node5" href="$group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f" title="Helper function used to style messages to the console." alt="" coords="172,107,337,133"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory." alt="" coords="392,5,501,32"/>
+<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="166,5,343,32"/>
+<area shape="rect" id="node4" href="$group__filesystem.html#gae75a3a92e889b0f2ac8aa709904b3e18" title="List the directories and files in the specified root directory. " alt="" coords="203,56,306,83"/>
+<area shape="rect" id="node5" href="$group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f" title="Helper function used to style messages to the console. " alt="" coords="172,107,337,133"/>
+<area shape="rect" id="node3" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory. " alt="" coords="392,5,501,32"/>
 </map>

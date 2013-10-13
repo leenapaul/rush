@@ -1,8 +1,8 @@
 <map id="Operations" name="Operations">
-<area shape="rect" id="node1" href="$group__site-operations.html" title="Site operation functions for Drush Rush." alt="" coords="177,208,290,235"/>
-<area shape="rect" id="node2" href="$group__repo-operations.html" title="Repo operation functions for Rush." alt="" coords="142,157,325,184"/>
-<area shape="rect" id="node3" href="$group__utility-operations.html" title="Miscellaneous operations which may not fit into another group yet." alt="" coords="171,259,295,285"/>
-<area shape="rect" id="node4" href="$group__db-operations.html" title="DB operation functions for Drush Rush." alt="" coords="179,5,288,32"/>
-<area shape="rect" id="node5" href="$group__host-operations.html" title="Host operation functions for Drush Rush." alt="" coords="174,107,293,133"/>
-<area shape="rect" id="node6" href="$group__filesystem-operations.html" title="File and directory operation management functions for Drush Rush." alt="" coords="153,56,313,83"/>
+<area shape="rect" id="node1" href="$group__site-operations.html" title="Site operation functions for Drush Rush. " alt="" coords="177,208,290,235"/>
+<area shape="rect" id="node2" href="$group__repo-operations.html" title="Repo operation functions for Rush. " alt="" coords="142,157,325,184"/>
+<area shape="rect" id="node3" href="$group__utility-operations.html" title="Miscellaneous operations which may not fit into another group yet. " alt="" coords="171,259,295,285"/>
+<area shape="rect" id="node4" href="$group__db-operations.html" title="DB operation functions for Drush Rush. " alt="" coords="179,5,288,32"/>
+<area shape="rect" id="node5" href="$group__host-operations.html" title="Host operation functions for Drush Rush. " alt="" coords="174,107,293,133"/>
+<area shape="rect" id="node6" href="$group__filesystem-operations.html" title="File and directory operation management functions for Drush Rush. " alt="" coords="153,56,313,83"/>
 </map>

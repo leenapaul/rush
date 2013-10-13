@@ -1,4 +1,4 @@
 <map id="rush_check_directories" name="rush_check_directories">
-<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations." alt="" coords="214,5,391,32"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory." alt="" coords="440,5,549,32"/>
+<area shape="rect" id="node2" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="214,5,391,32"/>
+<area shape="rect" id="node3" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory. " alt="" coords="440,5,549,32"/>
 </map>
