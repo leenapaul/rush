@@ -1,65 +1,169 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Rush : Drush tools to enhance and improve Drupal development operations and workflow." />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <title>Rush</title>
+    <title>Rush by seanbuscay</title>
   </head>
 
   <body>
+    <header>
+      <div class="inner">
+        <h1>Rush</h1>
+        <h2>Drush tools to enhance and improve Drupal development operations and workflow.</h2>
+        <a href="https://github.com/seanbuscay/rush" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/seanbuscay/rush">View on GitHub</a>
-
-          <h1 id="project_title">Rush</h1>
-          <h2 id="project_tagline">Drush tools to enhance and improve Drupal development operations and workflow.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/seanbuscay/rush/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/seanbuscay/rush/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-drush-rush" class="anchor" href="#welcome-to-drush-rush"><span class="octicon octicon-link"></span></a>Welcome to the Drush Rush Project Page</h3>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="drush-rush" class="anchor" href="#drush-rush"><span class="octicon octicon-link"></span></a>Drush Rush</h1>
 
 <p>Drush tools to enhance and improve Drupal development operations and workflow.</p>
 
+<h2>
+<a name="purpose" class="anchor" href="#purpose"><span class="octicon octicon-link"></span></a>Purpose</h2>
+
+<p>Welcome to the Drush Rush Project.</p>
+
 <p>The project's purpose is to allow Drupal Developers to:</p>
 
-          <ul>
-              <li>Reduce typical Drupal development workflows down to one step (one Drush command).</li>
-              <li>Create re-usable and share-able Drupal development operations and workflows.</li>
-          </ul>
-          <p>
-          <a href="http://seanbuscay.github.io/rush/html/">View the Drush Rush Documentation Pages</a>
-          </p><p>
-          <a href="https://github.com/seanbuscay/rush">Visit the Drush Rush Repo</a>
+<ul>
+<li>Reduce typical Drupal development workflows down to one step (one Drush command).</li>
+<li>Create re-usable and share-able Drupal development operations and workflows.</li>
+</ul><h2>
+<a name="project-status" class="anchor" href="#project-status"><span class="octicon octicon-link"></span></a>Project Status</h2>
 
-      </p>
+<p>Currently in Beta.  Ready for initial public release.</p>
 
-      </section>
+<h2>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Visit <a href="http://seanbuscay.github.io/rush/html/">http://seanbuscay.github.io/rush/html/</a> to view full project documentation.</p>
+
+<h2>
+<a name="example-usage" class="anchor" href="#example-usage"><span class="octicon octicon-link"></span></a>Example Usage</h2>
+
+<p>Run a Drush Rush command like:</p>
+
+<pre><code>drush rush myjob.init
+</code></pre>
+
+<p>To parse the job folder's rush files for build parameters and build operations and then execute the following operations:</p>
+
+<ol>
+<li>Make the build directory</li>
+<li>Put the directory in the web root</li>
+<li>Add other directories and files to the build (setup the build skeleton)</li>
+<li>Create a docroot folder for the Drupal code base</li>
+<li>Build the code base with Drush Make using specified makefile(s) and prepare the site for install</li>
+<li>Create the specified database</li>
+<li>Create the specified dns and virtual host entries</li>
+<li>Run any pre-build commands</li>
+<li>Run any pre-build scripts</li>
+<li>Create build aliases.drushrc.php files</li>
+<li>Install the site</li>
+<li>Change variable values as specified</li>
+<li>Run any post-build commands</li>
+<li>Run any post-build scripts</li>
+<li>Put the build under version control</li>
+<li>Create a remote repo (such as on GITHUB), commit the code, and push it</li>
+</ol><h2>
+<a name="quick-start-install" class="anchor" href="#quick-start-install"><span class="octicon octicon-link"></span></a>Quick Start Install</h2>
+
+<p><em>Assuming you already have Drush installed</em></p>
+
+<pre><code>cd ~
+git clone git@github.com:seanbuscay/rush.git .drush/rush
+drush rush init
+</code></pre>
+
+<p>After install, run the following:</p>
+
+<pre><code>drush rush helloworld
+</code></pre>
+
+<p>You should see the message <code>Hello World</code> in your terminal.</p>
+
+<p>See the <a href="http://seanbuscay.github.io/rush/html/doc-install-guide.html">Install Guide</a> for further detail, dependencies, and requirements.</p>
+
+<h2>
+<a name="background" class="anchor" href="#background"><span class="octicon octicon-link"></span></a>Background</h2>
+
+<p>This project originates out of experience using Jenkins to automate building and testing Drupal projects.</p>
+
+<blockquote>
+<p><strong>Note:</strong> Jenkins is an extendable open source continuous integration server.  Visit: <a href="http://jenkins-ci.org/">http://jenkins-ci.org/</a> for more information.</p>
+</blockquote>
+
+<p>Beyond its excellent tool set to execute and monitor the results of repeated build jobs, Jenkins is a good tool to automate repetitive workflows for developers.</p>
+
+<p>For example, if a developer needs to work on a website locally, he or she typically must:</p>
+
+<ol>
+<li>Get the code via a Versions Control System like git</li>
+<li>Switch to a branch or tag to work on</li>
+<li>Change or add some parameters in settings files to match the development environment</li>
+<li>Get the db export</li>
+<li>Create a testing db</li>
+<li>Import the db snapshot</li>
+<li>Create a local host file entry</li>
+<li>Restart Apache</li>
+</ol><p>That's eight steps before starting to code.</p>
+
+<p>Jenkins can automate many of these common developer workflows, using job parameters to let developers simply enter a project name and a branch and then run a Jenkins job to do their repetitive build work for them.</p>
+
+<p>Like Jenkins, Drush Rush is a tool to run parameterized builds with Drush.
+In most cases the build jobs are a series of core drush commands chained together to complete a full build process with a single command.</p>
+
+<h3>
+<a name="a-few-points-about-drush-rush-jobs" class="anchor" href="#a-few-points-about-drush-rush-jobs"><span class="octicon octicon-link"></span></a>A Few Points about Drush Rush Jobs</h3>
+
+<ol>
+<li> Drush Rush jobs are <strong>written once then used repeatedly</strong>. <em>There is probably little value to writing a Drush Rush job for a one time build process.</em>
+</li>
+<li> Drush Rush jobs are <strong>extendable</strong>.  Complex jobs may be written by extending and or combining similar jobs.</li>
+<li> Drush Rush jobs are <strong>shareable</strong> so a job written by one developer may be shared with many.</li>
+<li> Drush Rush jobs are <strong>light weight</strong>.  Drush Rush may be used to execute steps as part of a continuous integration or automated testing process, however, it is not a CI or Testing Suite.</li>
+</ol><h2>
+<a name="tested-platforms" class="anchor" href="#tested-platforms"><span class="octicon octicon-link"></span></a>Tested Platforms</h2>
+
+<ol>
+<li>Tested and working with a standard LAMP Stack on Ubuntu 12.x</li>
+<li>Tested and working on Mac OSX Mountain Lion AMP Stack defined here: <a href="http://coolestguyplanettech.com/downtown/install-and-configure-apache-mysql-php-and-phpmyadmin-osx-108-mountain-lion">OSX AMP</a>
+</li>
+</ol>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/seanbuscay/rush/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/seanbuscay/rush/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/seanbuscay/rush"></a> is maintained by <a href="https://github.com/seanbuscay">seanbuscay</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Rush maintained by <a href="https://github.com/seanbuscay">seanbuscay</a></p>
-      </footer>
-    </div>
-
-    
-
+  
   </body>
 </html>
