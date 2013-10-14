@@ -43,11 +43,6 @@
             <Anchor>sec-purpose</Anchor>
            </Node>
            <Node>
-            <Name>Project Status</Name>
-            <Path>doc-about-rush.html</Path>
-            <Anchor>sec-status</Anchor>
-           </Node>
-           <Node>
             <Name>Background</Name>
             <Path>doc-about-rush.html</Path>
             <Anchor>sec-background</Anchor>
@@ -913,7 +908,7 @@
           <Subnodes>
            <Node>
             <Name>includes</Name>
-            <Path>dir_09e761304027c904456130627fd4dcf5.html</Path>
+            <Path>dir_84b4cb3bbb563b36607cecc0904f155e.html</Path>
             <Subnodes>
              <Node>
               <Name>filesystem.inc</Name>
@@ -1016,7 +1011,7 @@
            </Node>
            <Node>
             <Name>operations</Name>
-            <Path>dir_ce81d3468f62db2922d7d87035174548.html</Path>
+            <Path>dir_7feada65b12144ac53fc87330d3c6536.html</Path>
             <Subnodes>
              <Node>
               <Name>operations.inc</Name>
@@ -1245,6 +1240,22 @@
                 <Name>RUSH_SETTINGS_LOCAL_TEMPLATE</Name>
                 <Path>rush_8utilities_8inc.html</Path>
                 <Anchor>ga7bd2a1a2fbca6924c25de39ad54e8607</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>RushTemplates</Name>
+            <Path>dir_fc1de72a1fa164756646a7c573a6b45e.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>helloworld</Name>
+              <Path>dir_b9f2a211d5543242ec7f2cb3fac7539f.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>rush.php</Name>
+                <Path>rush_8php.html</Path>
                </Node>
               </Subnodes>
              </Node>
