@@ -1,4 +1,4 @@
 <map id="rush_op_open_uri" name="rush_op_open_uri">
 <area shape="rect" id="node2" href="$group__command__execution.html#ga46ea807a07b3ce2bfac44a849729f036" title="Run a command through drush_shell_exec(). " alt="" coords="184,5,333,32"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="195,56,322,83"/>
+<area shape="rect" id="node3" href="$group__output.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="195,56,322,83"/>
 </map>

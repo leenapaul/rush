@@ -8,7 +8,7 @@
      <key>CFBundleIdentifier</key>
      <string>org.doxygen.Project</string>
      <key>CFBundleVersion</key>
-     <string>.9.0.0</string>
+     <string>Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</string>
      <key>DocSetFeedName</key>
      <string>Doxygen generated docs</string>
      <key>DocSetPublisherIdentifier</key>

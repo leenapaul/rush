@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="surfboard.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Drush Rush
-   &#160;<span id="projectnumber">.9.0.0</span>
+   &#160;<span id="projectnumber">Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</span>
    </div>
    <div id="projectbrief">Drush tools to enhance and improve Drupal development operations and work flow.</div>
   </td>
@@ -98,18 +98,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga7ddbd1db80e9fc87991a8e4064d1c348"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#ga7ddbd1db80e9fc87991a8e4064d1c348">_rush_docs_selection</a> ()</td></tr>
+<tr class="memdesc:ga7ddbd1db80e9fc87991a8e4064d1c348"><td class="mdescLeft">&#160;</td><td class="mdescRight">Help function to select which docs to display information about.  <a href="group__command__helpers.html#ga7ddbd1db80e9fc87991a8e4064d1c348">More...</a><br/></td></tr>
+<tr class="separator:ga7ddbd1db80e9fc87991a8e4064d1c348"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf099908ca74dada588a9e0753ddfdfbd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd">_rush_show</a> ($params, $mode, $operations)</td></tr>
 <tr class="memdesc:gaf099908ca74dada588a9e0753ddfdfbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to print the params associated with the defined show mode.  <a href="group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd">More...</a><br/></td></tr>
 <tr class="separator:gaf099908ca74dada588a9e0753ddfdfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad0427b43298aeba049db63439ec6f3a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8">rush_empty_error</a> ($value, $function)</td></tr>
-<tr class="memdesc:gad0427b43298aeba049db63439ec6f3a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to output a consistent error message for empty parameters.  <a href="group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8">More...</a><br/></td></tr>
-<tr class="separator:gad0427b43298aeba049db63439ec6f3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga45cf19e2d0dc2ca561838b88e5c93900"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#ga45cf19e2d0dc2ca561838b88e5c93900">rush_invoke</a> ($alias, $command, $args, $options, $function, $type= 'message')</td></tr>
 <tr class="memdesc:ga45cf19e2d0dc2ca561838b88e5c93900"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper for drush_invoke_process().  <a href="group__command__helpers.html#ga45cf19e2d0dc2ca561838b88e5c93900">More...</a><br/></td></tr>
 <tr class="separator:ga45cf19e2d0dc2ca561838b88e5c93900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga38d8495fc784ae97cc56026997ef570f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f">rush_message_wrapper</a> ($message= '', $style=0)</td></tr>
-<tr class="memdesc:ga38d8495fc784ae97cc56026997ef570f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function used to style messages to the console.  <a href="group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f">More...</a><br/></td></tr>
-<tr class="separator:ga38d8495fc784ae97cc56026997ef570f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1884a6ad32bf8266cb71f804c1f38522"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522">rush_self_path</a> ()</td></tr>
 <tr class="memdesc:ga1884a6ad32bf8266cb71f804c1f38522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to return the path to the Drush Rush module directory.  <a href="group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522">More...</a><br/></td></tr>
 <tr class="separator:ga1884a6ad32bf8266cb71f804c1f38522"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,13 +117,13 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is an include file with Drush Rush helper functions. </p>
 <dl class="section see"><dt>See Also</dt><dd>drushrush.drush.inc </dd></dl>
-<dl class="backlog"><dt><b><a class="el" href="backlog.html#_backlog000027">Backlog:</a></b></dt><dd>Refactor to use lazy includes and auto loaders. </dd></dl>
+<dl class="backlog"><dt><b><a class="el" href="backlog.html#_backlog000026">Backlog:</a></b></dt><dd>Refactor to use lazy includes and auto loaders. </dd></dl>
 
 <p>Definition in file <a class="el" href="rush_8inc_source.html">rush.inc</a>.</p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2013 22:47:24 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 5 2013 22:55:38 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

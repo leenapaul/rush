@@ -1,5 +1,5 @@
 <map id="rush_op_make" name="rush_op_make">
 <area shape="rect" id="node2" href="$group__filesystem.html#gab9ed4662e08969fd835eb97b047803f4" title="Return a make file location if it can be found. " alt="" coords="165,5,363,32"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="201,56,327,83"/>
+<area shape="rect" id="node3" href="$group__output.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="201,56,327,83"/>
 <area shape="rect" id="node4" href="$group__command__helpers.html#ga45cf19e2d0dc2ca561838b88e5c93900" title="A wrapper for drush_invoke_process(). " alt="" coords="217,107,311,133"/>
 </map>

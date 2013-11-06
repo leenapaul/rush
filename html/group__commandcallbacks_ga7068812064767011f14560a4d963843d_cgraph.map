@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd" title="Helper function to print the params associated with the defined show mode. " alt="" coords="207,19,300,45"/>
 <area shape="rect" id="node4" href="$group__get__ops.html#ga544e7229e2a6c13499001cd91cd9dd8e" title="Parse rush operations files and return an array of operations. " alt="" coords="181,95,325,121"/>
 <area shape="rect" id="node8" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters. " alt="" coords="191,165,316,192"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f" title="Helper function used to style messages to the console. " alt="" coords="391,5,556,32"/>
+<area shape="rect" id="node3" href="$group__output.html#ga38d8495fc784ae97cc56026997ef570f" title="Style messages for output to the console. " alt="" coords="391,5,556,32"/>
 <area shape="rect" id="node5" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="385,107,562,133"/>
 <area shape="rect" id="node7" href="$group__get__ops.html#ga6e206a41734390783ce02978e45fa76e" title="Parse a rush.ini file. " alt="" coords="384,56,563,83"/>
 <area shape="rect" id="node6" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory. " alt="" coords="671,81,780,108"/>

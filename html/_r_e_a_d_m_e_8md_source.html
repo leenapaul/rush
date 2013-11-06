@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="surfboard.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Drush Rush
-   &#160;<span id="projectnumber">.9.0.0</span>
+   &#160;<span id="projectnumber">Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</span>
    </div>
    <div id="projectbrief">Drush tools to enhance and improve Drupal development operations and work flow.</div>
   </td>
@@ -99,56 +99,56 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="stringliteral">- Reduce typical Drupal development workflows down to one step (one Drush command).</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="stringliteral">- Create re-usable and share-able Drupal development operations and workflows.</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="stringliteral">[An Illustrated Use Case](http://palantirnet.github.io/rush/html/Drush-Rush-Use-Case-Illustration.pdf) | [Documentation](http://palantirnet.github.io/rush/html/) | [Install](http://palantirnet.github.io/rush/html/doc-install-guide.html) | [Releases](https://github.com/palantirnet/rush/releases) | [What&#39;</span>s New](http:<span class="comment">//palantirnet.github.io/rush/html/doc-whats-new.html)</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;---</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="stringliteral">[Issue Management on Drupal.org](https://drupal.org/project/issues/rush)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="stringliteral">[An Illustrated Use Case](http://palantirnet.github.io/rush/html/Drush-Rush-Use-Case-Illustration.pdf) | [Documentation](http://palantirnet.github.io/rush/html/) | [Install](http://palantirnet.github.io/rush/html/doc-install-guide.html) | [Releases/What&#39;</span>s New](https:<span class="comment">//github.com/palantirnet/rush/releases) </span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">## Example Usage</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Run a Drush Rush command like:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    drush rush myjob.init</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;---</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">## Example Usage</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;Run a Drush Rush command like:</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;To parse the job folder<span class="stringliteral">&#39;s rush files for build parameters and build operations and then execute the following operations:</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="stringliteral">1. Make the build directory</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="stringliteral">2. Put the directory in the web root</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="stringliteral">3. Add other directories and files to the build (setup the build skeleton)</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="stringliteral">4. Create a docroot folder for the Drupal code base</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="stringliteral">5. Build the code base with Drush Make using specified makefile(s) and prepare the site for install</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="stringliteral">6. Create the specified database</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="stringliteral">7. Create the specified dns and virtual host entries</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="stringliteral">8. Run any pre-build commands</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="stringliteral">9. Run any pre-build scripts</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="stringliteral">10. Create build aliases.drushrc.php files</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="stringliteral">11. Install the site</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="stringliteral">12. Change variable values as specified</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="stringliteral">13. Run any post-build commands</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="stringliteral">14. Run any post-build scripts</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="stringliteral">15. Put the build under version control</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="stringliteral">16. Create a remote repo (such as on GITHUB), commit the code, and push it</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="stringliteral">## Quick Start Install</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    drush rush myjob.init</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;To parse the job folder<span class="stringliteral">&#39;s rush files for build parameters and build operations and then execute the following operations:</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="stringliteral">1. Make the build directory</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="stringliteral">2. Put the directory in the web root</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="stringliteral">3. Add other directories and files to the build (setup the build skeleton)</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="stringliteral">4. Create a docroot folder for the Drupal code base</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="stringliteral">5. Build the code base with Drush Make using specified makefile(s) and prepare the site for install</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="stringliteral">6. Create the specified database</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="stringliteral">7. Create the specified dns and virtual host entries</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="stringliteral">8. Run any pre-build commands</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="stringliteral">9. Run any pre-build scripts</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="stringliteral">10. Create build aliases.drushrc.php files</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="stringliteral">11. Install the site</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="stringliteral">12. Change variable values as specified</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="stringliteral">13. Run any post-build commands</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="stringliteral">14. Run any post-build scripts</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="stringliteral">15. Put the build under version control</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="stringliteral">16. Create a remote repo (such as on GITHUB), commit the code, and push it</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="stringliteral">*Assuming you already have Drush installed*</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="stringliteral">## Quick Start Install</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="stringliteral">    cd ~</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="stringliteral">    git clone git@github.com:palantirnet/rush.git .drush/rush</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="stringliteral">    drush rush init</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="stringliteral">After install, run the following:</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="stringliteral">*Assuming you already have Drush installed*</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="stringliteral">    cd ~</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="stringliteral">    git clone git@github.com:palantirnet/rush.git .drush/rush</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="stringliteral">    drush rush init</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="stringliteral">    drush rush helloworld</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="stringliteral">After install, run the following:</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="stringliteral">You should see the message `Hello World` in your terminal.</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="stringliteral">    drush rush helloworld</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="stringliteral">See the [Install Guide](http://palantirnet.github.io/rush/html/doc-install-guide.html) for further detail, dependencies, and requirements.</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="stringliteral">You should see the message `Hello World` in your terminal.</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="stringliteral">## Background</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="stringliteral">See the [Install Guide](http://palantirnet.github.io/rush/html/doc-install-guide.html) for further detail, dependencies, and requirements.</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="stringliteral">This project originates out of experience using Jenkins to automate building and testing Drupal projects.</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="stringliteral">## Background</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="stringliteral">&gt; **Note:** Jenkins is an extendable open source continuous integration server.  Visit: http://jenkins-ci.org/ for more information.</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="stringliteral">This project originates out of experience using Jenkins (http://jenkins-ci.org/ ) to automate building and testing Drupal projects.</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="stringliteral"></span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="stringliteral">Beyond its excellent tool set to execute and monitor the results of repeated build jobs, Jenkins is a good tool to automate repetitive workflows for developers.</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="stringliteral"></span></div>
@@ -185,7 +185,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2013 22:47:24 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 5 2013 22:55:38 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

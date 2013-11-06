@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="surfboard.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Drush Rush
-   &#160;<span id="projectnumber">.9.0.0</span>
+   &#160;<span id="projectnumber">Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</span>
    </div>
    <div id="projectbrief">Drush tools to enhance and improve Drupal development operations and work flow.</div>
   </td>
@@ -87,6 +87,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li class="level2"><a href="#sec-application-folder">The Rush Application Folder</a></li>
 <li class="level2"><a href="#sec-commands">Drush Rush Commands</a><ul><li class="level3"><a href="#sec-command-options">Rush Command Line Options</a></li>
 <li class="level3"><a href="#sec-command-examples">Rush Commands Examples</a></li>
+<li class="level3"><a href="#sec-environment-based-global-pre-post">Environment Based Global Pre and Post Operations</a></li>
+<li class="level3"><a href="#sec-branching-options-from-command-line">Branching Options from the Command Line</a></li>
 </ul>
 </li>
 <li class="level2"><a href="#sec-job-templates">Job Templates</a></li>
@@ -180,9 +182,9 @@ Rush Command Line Options</h3>
     'example-value' =&gt; 'un,pre-build,post-build',
   ),
   'branch'   =&gt; array(
-    'description'   =&gt; 'Branch to use for jobs that use the [repo][branch] parameter.  This will affect jobs that run the rush clone operation.  Passing this paramter at runtime is a good way to clone a different git branch to run the rush job against.',
+    'description'   =&gt; 'Branch to use for jobs that use the [repo][branch] parameter.  This will affect jobs that run the rush clone operation.  Passing this parameter at runtime is a good way to clone a different git branch to run the rush job against.',
     'example-value' =&gt; 'develop,master,sprint1,new-feature',
-  ),       
+  ),
   'new-branch'   =&gt; array(
     'description'   =&gt; 'New branch name to use for jobs that use the [repo][new_branch] parameter.  This will affect jobs that run the rush branch operation.  Passing this parameter at runtime is a good way to create new feature branches that start from the branch defined in the rush job.',
     'example-value' =&gt; 'new~feature,experiment',
@@ -194,6 +196,12 @@ Rush Command Line Options</h3>
 </pre><h3><a class="anchor" id="sec-command-examples"></a>
 Rush Commands Examples</h3>
 <p>See <a class="el" href="doc-commands-examples.html">Rush Commands Examples</a></p>
+<h3><a class="anchor" id="sec-environment-based-global-pre-post"></a>
+Environment Based Global Pre and Post Operations</h3>
+<p>See <a class="el" href="doc-environment-based-global-pre-post.html">Environment Based Global Pre and Post Operations</a></p>
+<h3><a class="anchor" id="sec-branching-options-from-command-line"></a>
+Branching Options from the Command Line</h3>
+<p>See <a class="el" href="doc-branching-options-from-command-line.html">Branching Options from the Command Line</a></p>
 <h2><a class="anchor" id="sec-job-templates"></a>
 Job Templates</h2>
 <p>There are a number of example jobs in the <a href="https://github.com/seanbuscay/rush/tree/master/RushTemplates">RushTemplates</a> directory.</p>
@@ -203,10 +211,10 @@ Job Templates</h2>
 </pre><p>To see a see a description of the job with information on how it works run: </p>
 <pre class="fragment">drush rush &lt;job-name&gt; --show=help
 </pre><p>For example, to see how tests.filesystem works run: </p>
-<pre class="fragment">drush rush tests.filesystem --show=help </pre> </div></div><!-- contents -->
+<pre class="fragment">drush rush tests.filesystem --show=help</pre> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2013 22:47:24 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 5 2013 22:55:38 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -13,13 +13,35 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_rush_inspect_directory</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__filesystem.html</Path>
+    <Anchor>ga5f68783936c970acb133f3ab2a34d5cb</Anchor>
+    <Abstract>Return an array of files and directories in a given directory path. </Abstract>
+    <DeclaredIn>filesystem.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_list_jobs</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__filesystem.html</Path>
+    <Anchor>ga05212277ddcb371c81f6911a367073bd</Anchor>
+    <Abstract>Return a list of Rush jobs. </Abstract>
+    <DeclaredIn>filesystem.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>rush_check_directories</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>group__filesystem.html</Path>
     <Anchor>gae887ebc7c373bbf0209a58bd711dd20b</Anchor>
-    <Abstract>Helper function to confirm important directories exists on the system. </Abstract>
+    <Abstract>Function to confirm important directories exists on the system. </Abstract>
     <DeclaredIn>filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -31,17 +53,6 @@
     <Path>group__filesystem.html</Path>
     <Anchor>ga42a80d15a0f8d53694c89532648d5b63</Anchor>
     <Abstract>Extract Rush application folder locations. </Abstract>
-    <DeclaredIn>filesystem.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>rush_list_files</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__filesystem.html</Path>
-    <Anchor>gae75a3a92e889b0f2ac8aa709904b3e18</Anchor>
-    <Abstract>List the directories and files in the specified root directory. </Abstract>
     <DeclaredIn>filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -65,6 +76,94 @@
     <Anchor>ga6e206a41734390783ce02978e45fa76e</Anchor>
     <Abstract>Parse a rush.ini file. </Abstract>
     <DeclaredIn>ops.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_format_docblocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaa61f0c22f9529b9e4b9aec17a296e0a2</Anchor>
+    <Abstract>Get an array of formatted block comments from the $docblocks array. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_get_function_names</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga0617794b32a3015182e26c364aae8ff4</Anchor>
+    <Abstract>Given a file path, return an array of function names in the file. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_print_ops_table</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga74da4f879bd0f2223f2f86ae494b776e</Anchor>
+    <Abstract>Print a table of operation functions. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_print_ops_tables</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaeb0d57438602f02161463777cae342c4</Anchor>
+    <Abstract>Helper function to print tables for each group of operations. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_empty_error</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
+    <Abstract>Helper function to output a consistent error message for empty parameters. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_get_docblocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaea15372491afb3a511996a58192334f2</Anchor>
+    <Abstract>Get an array of doc block comments from an array of function names. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_message_wrapper</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
+    <Abstract>Style messages for output to the console. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_print_function_blocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga9aa95e53ac177c38ef5756c11e78ce47</Anchor>
+    <Abstract>Print the docblocks for functions in the specified file. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -173,7 +272,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga52d1a40341f317c06cf3c6cfe672be71</Anchor>
-    <Abstract>Wrapper for drush sql-create. </Abstract>
+    <Abstract>Create a database. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -184,7 +283,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>gac5d4f4bf3f1a8df902c91ddf2cb8cbf5</Anchor>
-    <Abstract>Run supplied query using drush sql-query. </Abstract>
+    <Abstract>Delete the specified data base. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -195,7 +294,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga615675fb31780c1398526ff3f4a04f68</Anchor>
-    <Abstract>Wrapper for drush sql-dump. </Abstract>
+    <Abstract>Export a database to the specified file. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -206,7 +305,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>gab74ba7b14ae645c89543ea77c0b814a7</Anchor>
-    <Abstract>Run supplied query using drush sql-query. </Abstract>
+    <Abstract>Run a specified query using drush sql-query. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -217,7 +316,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga35f1d004c0681725eeed37b9cc3d57a3</Anchor>
-    <Abstract>Run the sql in $params[&amp;#39;db&amp;#39;][&amp;#39;file_path&amp;#39;]. </Abstract>
+    <Abstract>Run the sql in the file specified by $params[&amp;#39;db&amp;#39;][&amp;#39;file_path&amp;#39;]. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -228,7 +327,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gab57a4e5e62eab79975bf1e22490eee34</Anchor>
-    <Abstract>Create the build directory at the designated path. </Abstract>
+    <Abstract>Create the build directory at the specified path. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -239,7 +338,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gab1e7bb951be181c2474c6511a6459dde</Anchor>
-    <Abstract>Create directories within the designated directory. </Abstract>
+    <Abstract>Create directories within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -250,7 +349,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>ga2b61540f0487e593f72b9a05924963fe</Anchor>
-    <Abstract>Create files within the designated directory. </Abstract>
+    <Abstract>Create files within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -261,7 +360,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gaa92a82c99272ff0474af8f4375b7751b</Anchor>
-    <Abstract>Create a .gitignore file within the designated directory. </Abstract>
+    <Abstract>Create a .gitignore file within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -272,7 +371,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>ga67e8de6a153733b232866e2c3ca098a8</Anchor>
-    <Abstract>Destroy the build directory at the designated path. </Abstract>
+    <Abstract>Destroy the build directory at the specified path. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -448,7 +547,7 @@
     </TokenIdentifier>
     <Path>group__repo-operations.html</Path>
     <Anchor>ga1b59a3d03a02b35c085f9397871d77a5</Anchor>
-    <Abstract>Run git checkout -b to create and checkout a new branch with the specified name. </Abstract>
+    <Abstract>Run git checkout -b to create and checkout a new branch. </Abstract>
     <DeclaredIn>rush.repo.inc</DeclaredIn>
   </Token>
   <Token>
@@ -526,6 +625,17 @@
     <Path>group__site-operations.html</Path>
     <Anchor>ga1df013098ef10a6bd7fad8a7384e80aa</Anchor>
     <Abstract>Open the defined site URL in the default browser. </Abstract>
+    <DeclaredIn>rush.site.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_op_set_drupal_variables</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__site-operations.html</Path>
+    <Anchor>gaf1e7d5a53af56718706f6f5833c3ac6a</Anchor>
+    <Abstract>Wrapper for drush variable-set. </Abstract>
     <DeclaredIn>rush.site.inc</DeclaredIn>
   </Token>
   <Token>
@@ -706,6 +816,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_rush_docs_selection</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__command__helpers.html</Path>
+    <Anchor>ga7ddbd1db80e9fc87991a8e4064d1c348</Anchor>
+    <Abstract>Help function to select which docs to display information about. </Abstract>
+    <DeclaredIn>rush.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_rush_show</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
@@ -717,17 +838,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>rush_empty_error</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__command__helpers.html</Path>
-    <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
-    <Abstract>Helper function to output a consistent error message for empty parameters. </Abstract>
-    <DeclaredIn>rush.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>rush_invoke</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
@@ -735,17 +845,6 @@
     <Path>group__command__helpers.html</Path>
     <Anchor>ga45cf19e2d0dc2ca561838b88e5c93900</Anchor>
     <Abstract>A wrapper for drush_invoke_process(). </Abstract>
-    <DeclaredIn>rush.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>rush_message_wrapper</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__command__helpers.html</Path>
-    <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
-    <Abstract>Helper function used to style messages to the console. </Abstract>
     <DeclaredIn>rush.inc</DeclaredIn>
   </Token>
   <Token>
@@ -777,14 +876,6 @@
     </TokenIdentifier>
     <Path>doc-about-rush.html</Path>
     <Abstract>An introduction to the Drush Rush project, including the project&amp;#39;s purpose, background, and example usage. </Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>doc-whats-new</Name>
-      <APILanguage>markdown</APILanguage>
-    </TokenIdentifier>
-    <Path>doc-whats-new.html</Path>
-    <Abstract>Notes to help you find what out what&amp;#39;s new with Drush Rush. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -841,6 +932,22 @@
     </TokenIdentifier>
     <Path>doc-parameters-list.html</Path>
     <Abstract>A list of parameters which Rush may use. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doc-branching-options-from-command-line</Name>
+      <APILanguage>markdown</APILanguage>
+    </TokenIdentifier>
+    <Path>doc-branching-options-from-command-line.html</Path>
+    <Abstract>Notes about Branching Options from the Command Line. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>doc-environment-based-global-pre-post</Name>
+      <APILanguage>markdown</APILanguage>
+    </TokenIdentifier>
+    <Path>doc-environment-based-global-pre-post.html</Path>
+    <Abstract>Notes about Environment Based Global Pre and Post Operations. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -908,13 +1015,35 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_rush_inspect_directory</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__filesystem.html</Path>
+    <Anchor>ga5f68783936c970acb133f3ab2a34d5cb</Anchor>
+    <Abstract>Return an array of files and directories in a given directory path. </Abstract>
+    <DeclaredIn>filesystem.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_list_jobs</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__filesystem.html</Path>
+    <Anchor>ga05212277ddcb371c81f6911a367073bd</Anchor>
+    <Abstract>Return a list of Rush jobs. </Abstract>
+    <DeclaredIn>filesystem.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>rush_check_directories</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>group__filesystem.html</Path>
     <Anchor>gae887ebc7c373bbf0209a58bd711dd20b</Anchor>
-    <Abstract>Helper function to confirm important directories exists on the system. </Abstract>
+    <Abstract>Function to confirm important directories exists on the system. </Abstract>
     <DeclaredIn>filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -926,17 +1055,6 @@
     <Path>group__filesystem.html</Path>
     <Anchor>ga42a80d15a0f8d53694c89532648d5b63</Anchor>
     <Abstract>Extract Rush application folder locations. </Abstract>
-    <DeclaredIn>filesystem.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>rush_list_files</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__filesystem.html</Path>
-    <Anchor>gae75a3a92e889b0f2ac8aa709904b3e18</Anchor>
-    <Abstract>List the directories and files in the specified root directory. </Abstract>
     <DeclaredIn>filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -968,6 +1086,102 @@
     <Anchor>ga6e206a41734390783ce02978e45fa76e</Anchor>
     <Abstract>Parse a rush.ini file. </Abstract>
     <DeclaredIn>ops.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>output</Name>
+      <APILanguage>php</APILanguage>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Abstract>Functions to assist with text output. </Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_format_docblocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaa61f0c22f9529b9e4b9aec17a296e0a2</Anchor>
+    <Abstract>Get an array of formatted block comments from the $docblocks array. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_get_function_names</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga0617794b32a3015182e26c364aae8ff4</Anchor>
+    <Abstract>Given a file path, return an array of function names in the file. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_print_ops_table</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga74da4f879bd0f2223f2f86ae494b776e</Anchor>
+    <Abstract>Print a table of operation functions. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_rush_print_ops_tables</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaeb0d57438602f02161463777cae342c4</Anchor>
+    <Abstract>Helper function to print tables for each group of operations. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_empty_error</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
+    <Abstract>Helper function to output a consistent error message for empty parameters. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_get_docblocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>gaea15372491afb3a511996a58192334f2</Anchor>
+    <Abstract>Get an array of doc block comments from an array of function names. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_message_wrapper</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
+    <Abstract>Style messages for output to the console. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_print_function_blocks</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__output.html</Path>
+    <Anchor>ga9aa95e53ac177c38ef5756c11e78ce47</Anchor>
+    <Abstract>Print the docblocks for functions in the specified file. </Abstract>
+    <DeclaredIn>output.inc</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1100,7 +1314,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga52d1a40341f317c06cf3c6cfe672be71</Anchor>
-    <Abstract>Wrapper for drush sql-create. </Abstract>
+    <Abstract>Create a database. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1111,7 +1325,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>gac5d4f4bf3f1a8df902c91ddf2cb8cbf5</Anchor>
-    <Abstract>Run supplied query using drush sql-query. </Abstract>
+    <Abstract>Delete the specified data base. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1122,7 +1336,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga615675fb31780c1398526ff3f4a04f68</Anchor>
-    <Abstract>Wrapper for drush sql-dump. </Abstract>
+    <Abstract>Export a database to the specified file. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1133,7 +1347,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>gab74ba7b14ae645c89543ea77c0b814a7</Anchor>
-    <Abstract>Run supplied query using drush sql-query. </Abstract>
+    <Abstract>Run a specified query using drush sql-query. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1144,7 +1358,7 @@
     </TokenIdentifier>
     <Path>group__db-operations.html</Path>
     <Anchor>ga35f1d004c0681725eeed37b9cc3d57a3</Anchor>
-    <Abstract>Run the sql in $params[&amp;#39;db&amp;#39;][&amp;#39;file_path&amp;#39;]. </Abstract>
+    <Abstract>Run the sql in the file specified by $params[&amp;#39;db&amp;#39;][&amp;#39;file_path&amp;#39;]. </Abstract>
     <DeclaredIn>rush.db.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1163,7 +1377,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gab57a4e5e62eab79975bf1e22490eee34</Anchor>
-    <Abstract>Create the build directory at the designated path. </Abstract>
+    <Abstract>Create the build directory at the specified path. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1174,7 +1388,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gab1e7bb951be181c2474c6511a6459dde</Anchor>
-    <Abstract>Create directories within the designated directory. </Abstract>
+    <Abstract>Create directories within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1185,7 +1399,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>ga2b61540f0487e593f72b9a05924963fe</Anchor>
-    <Abstract>Create files within the designated directory. </Abstract>
+    <Abstract>Create files within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1196,7 +1410,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>gaa92a82c99272ff0474af8f4375b7751b</Anchor>
-    <Abstract>Create a .gitignore file within the designated directory. </Abstract>
+    <Abstract>Create a .gitignore file within the specified directory. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1207,7 +1421,7 @@
     </TokenIdentifier>
     <Path>group__filesystem-operations.html</Path>
     <Anchor>ga67e8de6a153733b232866e2c3ca098a8</Anchor>
-    <Abstract>Destroy the build directory at the designated path. </Abstract>
+    <Abstract>Destroy the build directory at the specified path. </Abstract>
     <DeclaredIn>rush.filesystem.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1399,7 +1613,7 @@
     </TokenIdentifier>
     <Path>group__repo-operations.html</Path>
     <Anchor>ga1b59a3d03a02b35c085f9397871d77a5</Anchor>
-    <Abstract>Run git checkout -b to create and checkout a new branch with the specified name. </Abstract>
+    <Abstract>Run git checkout -b to create and checkout a new branch. </Abstract>
     <DeclaredIn>rush.repo.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1485,6 +1699,17 @@
     <Path>group__site-operations.html</Path>
     <Anchor>ga1df013098ef10a6bd7fad8a7384e80aa</Anchor>
     <Abstract>Open the defined site URL in the default browser. </Abstract>
+    <DeclaredIn>rush.site.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rush_op_set_drupal_variables</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__site-operations.html</Path>
+    <Anchor>gaf1e7d5a53af56718706f6f5833c3ac6a</Anchor>
+    <Abstract>Wrapper for drush variable-set. </Abstract>
     <DeclaredIn>rush.site.inc</DeclaredIn>
   </Token>
   <Token>
@@ -1713,6 +1938,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_rush_docs_selection</Name>
+      <APILanguage>php</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>group__command__helpers.html</Path>
+    <Anchor>ga7ddbd1db80e9fc87991a8e4064d1c348</Anchor>
+    <Abstract>Help function to select which docs to display information about. </Abstract>
+    <DeclaredIn>rush.inc</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>_rush_show</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
@@ -1724,17 +1960,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>rush_empty_error</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__command__helpers.html</Path>
-    <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
-    <Abstract>Helper function to output a consistent error message for empty parameters. </Abstract>
-    <DeclaredIn>rush.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>rush_invoke</Name>
       <APILanguage>php</APILanguage>
       <Type>func</Type>
@@ -1742,17 +1967,6 @@
     <Path>group__command__helpers.html</Path>
     <Anchor>ga45cf19e2d0dc2ca561838b88e5c93900</Anchor>
     <Abstract>A wrapper for drush_invoke_process(). </Abstract>
-    <DeclaredIn>rush.inc</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>rush_message_wrapper</Name>
-      <APILanguage>php</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>group__command__helpers.html</Path>
-    <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
-    <Abstract>Helper function used to style messages to the console. </Abstract>
     <DeclaredIn>rush.inc</DeclaredIn>
   </Token>
   <Token>

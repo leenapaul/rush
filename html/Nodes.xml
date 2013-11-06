@@ -19,11 +19,6 @@
             <Path>index.html</Path>
             <Anchor>sec-begin</Anchor>
            </Node>
-           <Node>
-            <Name>What&apos;s New</Name>
-            <Path>index.html</Path>
-            <Anchor>sec-whats-new</Anchor>
-           </Node>
           </Subnodes>
          </Node>
         </Subnodes>
@@ -62,34 +57,6 @@
             <Path>doc-about-rush.html</Path>
             <Anchor>sec-example</Anchor>
            </Node>
-           <Node>
-            <Name>What&apos;s New</Name>
-            <Path>doc-about-rush.html</Path>
-            <Anchor>sec-whats-new-link</Anchor>
-           </Node>
-          </Subnodes>
-         </Node>
-        </Subnodes>
-       </Node>
-       <Node>
-        <Name>What&apos;s New</Name>
-        <Path>doc-whats-new.html</Path>
-        <Subnodes>
-         <Node>
-          <Name>What&apos;s New  </Name>
-          <Path>doc-whats-new.html</Path>
-          <Anchor>page-whats-new</Anchor>
-          <Subnodes>
-           <Node>
-            <Name>Oct 6, 2013 - Environment Based Global Pre and Post Operations</Name>
-            <Path>doc-whats-new.html</Path>
-            <Anchor>sec-10-6-2013</Anchor>
-           </Node>
-           <Node>
-            <Name>Sep 23, 2013 - New Branching Options from the Command Line</Name>
-            <Path>doc-whats-new.html</Path>
-            <Anchor>sec-09-06-2013</Anchor>
-           </Node>
           </Subnodes>
          </Node>
         </Subnodes>
@@ -104,7 +71,7 @@
           <Anchor>page-developer-guide</Anchor>
           <Subnodes>
            <Node>
-            <Name>Code Documentaation</Name>
+            <Name>Code Documentation</Name>
             <Path>doc-developer-guide.html</Path>
             <Anchor>sec-code-documentation</Anchor>
            </Node>
@@ -379,6 +346,28 @@
         </Subnodes>
        </Node>
        <Node>
+        <Name>Branching Options from the Command Line</Name>
+        <Path>doc-branching-options-from-command-line.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Branching Options from the Command Line  </Name>
+          <Path>doc-branching-options-from-command-line.html</Path>
+          <Anchor>page-branching-options-from-command-line</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Environment Based Global Pre and Post Operations</Name>
+        <Path>doc-environment-based-global-pre-post.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Environment Based Global Pre and Post Operations </Name>
+          <Path>doc-environment-based-global-pre-post.html</Path>
+          <Anchor>page-environment-based-global-pre-post</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Rush Commands Examples</Name>
         <Path>doc-commands-examples.html</Path>
         <Subnodes>
@@ -422,6 +411,16 @@
               <Name>Rush Commands Examples</Name>
               <Path>doc-user-guide.html</Path>
               <Anchor>sec-command-examples</Anchor>
+             </Node>
+             <Node>
+              <Name>Environment Based Global Pre and Post Operations</Name>
+              <Path>doc-user-guide.html</Path>
+              <Anchor>sec-environment-based-global-pre-post</Anchor>
+             </Node>
+             <Node>
+              <Name>Branching Options from the Command Line</Name>
+              <Path>doc-user-guide.html</Path>
+              <Anchor>sec-branching-options-from-command-line</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -538,24 +537,19 @@
             <Path>group__command__helpers.html</Path>
             <Subnodes>
              <Node>
+              <Name>_rush_docs_selection</Name>
+              <Path>group__command__helpers.html</Path>
+              <Anchor>ga7ddbd1db80e9fc87991a8e4064d1c348</Anchor>
+             </Node>
+             <Node>
               <Name>_rush_show</Name>
               <Path>group__command__helpers.html</Path>
               <Anchor>gaf099908ca74dada588a9e0753ddfdfbd</Anchor>
              </Node>
              <Node>
-              <Name>rush_empty_error</Name>
-              <Path>group__command__helpers.html</Path>
-              <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
-             </Node>
-             <Node>
               <Name>rush_invoke</Name>
               <Path>group__command__helpers.html</Path>
               <Anchor>ga45cf19e2d0dc2ca561838b88e5c93900</Anchor>
-             </Node>
-             <Node>
-              <Name>rush_message_wrapper</Name>
-              <Path>group__command__helpers.html</Path>
-              <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
              </Node>
              <Node>
               <Name>rush_self_path</Name>
@@ -579,6 +573,16 @@
               <Anchor>gab9ed4662e08969fd835eb97b047803f4</Anchor>
              </Node>
              <Node>
+              <Name>_rush_inspect_directory</Name>
+              <Path>group__filesystem.html</Path>
+              <Anchor>ga5f68783936c970acb133f3ab2a34d5cb</Anchor>
+             </Node>
+             <Node>
+              <Name>_rush_list_jobs</Name>
+              <Path>group__filesystem.html</Path>
+              <Anchor>ga05212277ddcb371c81f6911a367073bd</Anchor>
+             </Node>
+             <Node>
               <Name>rush_check_directories</Name>
               <Path>group__filesystem.html</Path>
               <Anchor>gae887ebc7c373bbf0209a58bd711dd20b</Anchor>
@@ -587,11 +591,6 @@
               <Name>rush_get_global_locations</Name>
               <Path>group__filesystem.html</Path>
               <Anchor>ga42a80d15a0f8d53694c89532648d5b63</Anchor>
-             </Node>
-             <Node>
-              <Name>rush_list_files</Name>
-              <Path>group__filesystem.html</Path>
-              <Anchor>gae75a3a92e889b0f2ac8aa709904b3e18</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -608,6 +607,52 @@
               <Name>rush_parse_operations_ini</Name>
               <Path>group__get__ops.html</Path>
               <Anchor>ga6e206a41734390783ce02978e45fa76e</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Output Helpers</Name>
+            <Path>group__output.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>_rush_format_docblocks</Name>
+              <Path>group__output.html</Path>
+              <Anchor>gaa61f0c22f9529b9e4b9aec17a296e0a2</Anchor>
+             </Node>
+             <Node>
+              <Name>_rush_get_function_names</Name>
+              <Path>group__output.html</Path>
+              <Anchor>ga0617794b32a3015182e26c364aae8ff4</Anchor>
+             </Node>
+             <Node>
+              <Name>_rush_print_ops_table</Name>
+              <Path>group__output.html</Path>
+              <Anchor>ga74da4f879bd0f2223f2f86ae494b776e</Anchor>
+             </Node>
+             <Node>
+              <Name>_rush_print_ops_tables</Name>
+              <Path>group__output.html</Path>
+              <Anchor>gaeb0d57438602f02161463777cae342c4</Anchor>
+             </Node>
+             <Node>
+              <Name>rush_empty_error</Name>
+              <Path>group__output.html</Path>
+              <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
+             </Node>
+             <Node>
+              <Name>rush_get_docblocks</Name>
+              <Path>group__output.html</Path>
+              <Anchor>gaea15372491afb3a511996a58192334f2</Anchor>
+             </Node>
+             <Node>
+              <Name>rush_message_wrapper</Name>
+              <Path>group__output.html</Path>
+              <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
+             </Node>
+             <Node>
+              <Name>rush_print_function_blocks</Name>
+              <Path>group__output.html</Path>
+              <Anchor>ga9aa95e53ac177c38ef5756c11e78ce47</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -791,6 +836,11 @@
               <Anchor>ga1df013098ef10a6bd7fad8a7384e80aa</Anchor>
              </Node>
              <Node>
+              <Name>rush_op_set_drupal_variables</Name>
+              <Path>group__site-operations.html</Path>
+              <Anchor>gaf1e7d5a53af56718706f6f5833c3ac6a</Anchor>
+             </Node>
+             <Node>
               <Name>rush_op_si</Name>
               <Path>group__site-operations.html</Path>
               <Anchor>gade018bf2b23c479642c87b6495ec70c8</Anchor>
@@ -920,6 +970,16 @@
                 <Anchor>gab9ed4662e08969fd835eb97b047803f4</Anchor>
                </Node>
                <Node>
+                <Name>_rush_inspect_directory</Name>
+                <Path>filesystem_8inc.html</Path>
+                <Anchor>ga5f68783936c970acb133f3ab2a34d5cb</Anchor>
+               </Node>
+               <Node>
+                <Name>_rush_list_jobs</Name>
+                <Path>filesystem_8inc.html</Path>
+                <Anchor>ga05212277ddcb371c81f6911a367073bd</Anchor>
+               </Node>
+               <Node>
                 <Name>rush_check_directories</Name>
                 <Path>filesystem_8inc.html</Path>
                 <Anchor>gae887ebc7c373bbf0209a58bd711dd20b</Anchor>
@@ -928,11 +988,6 @@
                 <Name>rush_get_global_locations</Name>
                 <Path>filesystem_8inc.html</Path>
                 <Anchor>ga42a80d15a0f8d53694c89532648d5b63</Anchor>
-               </Node>
-               <Node>
-                <Name>rush_list_files</Name>
-                <Path>filesystem_8inc.html</Path>
-                <Anchor>gae75a3a92e889b0f2ac8aa709904b3e18</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -953,6 +1008,52 @@
                 <Name>rush_parse_operations_ini</Name>
                 <Path>ops_8inc.html</Path>
                 <Anchor>ga6e206a41734390783ce02978e45fa76e</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>output.inc</Name>
+              <Path>output_8inc.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>_rush_format_docblocks</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>gaa61f0c22f9529b9e4b9aec17a296e0a2</Anchor>
+               </Node>
+               <Node>
+                <Name>_rush_get_function_names</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>ga0617794b32a3015182e26c364aae8ff4</Anchor>
+               </Node>
+               <Node>
+                <Name>_rush_print_ops_table</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>ga74da4f879bd0f2223f2f86ae494b776e</Anchor>
+               </Node>
+               <Node>
+                <Name>_rush_print_ops_tables</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>gaeb0d57438602f02161463777cae342c4</Anchor>
+               </Node>
+               <Node>
+                <Name>rush_empty_error</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
+               </Node>
+               <Node>
+                <Name>rush_get_docblocks</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>gaea15372491afb3a511996a58192334f2</Anchor>
+               </Node>
+               <Node>
+                <Name>rush_message_wrapper</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
+               </Node>
+               <Node>
+                <Name>rush_print_function_blocks</Name>
+                <Path>output_8inc.html</Path>
+                <Anchor>ga9aa95e53ac177c38ef5756c11e78ce47</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1211,6 +1312,11 @@
                 <Anchor>ga1df013098ef10a6bd7fad8a7384e80aa</Anchor>
                </Node>
                <Node>
+                <Name>rush_op_set_drupal_variables</Name>
+                <Path>rush_8site_8inc.html</Path>
+                <Anchor>gaf1e7d5a53af56718706f6f5833c3ac6a</Anchor>
+               </Node>
+               <Node>
                 <Name>rush_op_si</Name>
                 <Path>rush_8site_8inc.html</Path>
                 <Anchor>gade018bf2b23c479642c87b6495ec70c8</Anchor>
@@ -1327,24 +1433,19 @@
             <Path>rush_8inc.html</Path>
             <Subnodes>
              <Node>
+              <Name>_rush_docs_selection</Name>
+              <Path>rush_8inc.html</Path>
+              <Anchor>ga7ddbd1db80e9fc87991a8e4064d1c348</Anchor>
+             </Node>
+             <Node>
               <Name>_rush_show</Name>
               <Path>rush_8inc.html</Path>
               <Anchor>gaf099908ca74dada588a9e0753ddfdfbd</Anchor>
              </Node>
              <Node>
-              <Name>rush_empty_error</Name>
-              <Path>rush_8inc.html</Path>
-              <Anchor>gad0427b43298aeba049db63439ec6f3a8</Anchor>
-             </Node>
-             <Node>
               <Name>rush_invoke</Name>
               <Path>rush_8inc.html</Path>
               <Anchor>ga45cf19e2d0dc2ca561838b88e5c93900</Anchor>
-             </Node>
-             <Node>
-              <Name>rush_message_wrapper</Name>
-              <Path>rush_8inc.html</Path>
-              <Anchor>ga38d8495fc784ae97cc56026997ef570f</Anchor>
              </Node>
              <Node>
               <Name>rush_self_path</Name>

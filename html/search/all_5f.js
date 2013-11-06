@@ -10,7 +10,14 @@ var searchData=
   ['_5frush_5fderive_5fparameters_5frepo',['_rush_derive_parameters_repo',['../group__get__params.html#ga71d53df6ee2f78dbb1e5cd3a8f926fe4',1,'params.inc']]],
   ['_5frush_5fderive_5fparameters_5fsi',['_rush_derive_parameters_si',['../group__get__params.html#gae7e40e20b79c96a7ed07c195f2a69cae',1,'params.inc']]],
   ['_5frush_5fdns_5fexists',['_rush_dns_exists',['../group__host-operations.html#ga4f0904a2ec318b43e6e1cf51b44f863e',1,'rush.host.inc']]],
+  ['_5frush_5fdocs_5fselection',['_rush_docs_selection',['../group__command__helpers.html#ga7ddbd1db80e9fc87991a8e4064d1c348',1,'rush.inc']]],
+  ['_5frush_5fformat_5fdocblocks',['_rush_format_docblocks',['../group__output.html#gaa61f0c22f9529b9e4b9aec17a296e0a2',1,'output.inc']]],
+  ['_5frush_5fget_5ffunction_5fnames',['_rush_get_function_names',['../group__output.html#ga0617794b32a3015182e26c364aae8ff4',1,'output.inc']]],
   ['_5frush_5fget_5fsi_5foptions',['_rush_get_si_options',['../group__site-operations.html#gae399d6845d09fe66da37c5fd9d1e0f80',1,'rush.site.inc']]],
+  ['_5frush_5finspect_5fdirectory',['_rush_inspect_directory',['../group__filesystem.html#ga5f68783936c970acb133f3ab2a34d5cb',1,'filesystem.inc']]],
+  ['_5frush_5flist_5fjobs',['_rush_list_jobs',['../group__filesystem.html#ga05212277ddcb371c81f6911a367073bd',1,'filesystem.inc']]],
+  ['_5frush_5fprint_5fops_5ftable',['_rush_print_ops_table',['../group__output.html#ga74da4f879bd0f2223f2f86ae494b776e',1,'output.inc']]],
+  ['_5frush_5fprint_5fops_5ftables',['_rush_print_ops_tables',['../group__output.html#gaeb0d57438602f02161463777cae342c4',1,'output.inc']]],
   ['_5frush_5fsettings_5flocal_5fparams',['_rush_settings_local_params',['../group__utility-operations.html#ga3c1384f209dca21952d7db3be092107b',1,'rush.utilities.inc']]],
   ['_5frush_5fshow',['_rush_show',['../group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd',1,'rush.inc']]]
 ];

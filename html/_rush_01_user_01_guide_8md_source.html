@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="surfboard.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Drush Rush
-   &#160;<span id="projectnumber">.9.0.0</span>
+   &#160;<span id="projectnumber">Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</span>
    </div>
    <div id="projectbrief">Drush tools to enhance and improve Drupal development operations and work flow.</div>
   </td>
@@ -130,12 +130,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;## The Rush Application Folder {#sec-application-folder}</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;After you [install Rush](@ref doc-install-guide) you will have a Rush application folder on your system. </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;After you [install Rush](@ref doc-install-guide) you will have a Rush application folder on your system.</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;Your Rush jobs go in <span class="keyword">this</span> folder. </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;Your environment files also go in <span class="keyword">this</span> folder to tell Rush about your local system and your global preferences. </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;Your Rush jobs go in <span class="keyword">this</span> folder.</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;Your environment files also go in <span class="keyword">this</span> folder to tell Rush about your local system and your global preferences.</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;Below is an outline of your typical Rush application directory structure: </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;Below is an outline of your typical Rush application directory structure:</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;- Rush (`~/Rush/`)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    - The Drush Rush application folder in your HOME directory, which contains an `environment` directory and a `jobs` directory.</div>
@@ -145,7 +145,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    - Put parameters in <span class="keyword">this</span> directory to use as defaults <span class="keywordflow">for</span> most jobs.  Then <span class="keyword">override</span> these parameters at the job level <span class="keywordflow">if</span> needed.</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;- jobs (`~/Rush/jobs`)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    - Contains job folders. Put your job folders in here. </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    - Contains job folders. Put your job folders in here.</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;- a job folder (`~/Rush/jobs/jobName`)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    - Contains a rush file with operations and typically a params file <span class="keywordflow">for</span> the specific job.</div>
@@ -182,9 +182,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="stringliteral">&#39;example-value&#39;</span> =&gt; <span class="stringliteral">&#39;un,pre-build,post-build&#39;</span>,</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      ),</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="stringliteral">&#39;branch&#39;</span>   =&gt; array(</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="stringliteral">&#39;description&#39;</span>   =&gt; <span class="stringliteral">&#39;Branch to use for jobs that use the [repo][branch] parameter.  This will affect jobs that run the rush clone operation.  Passing this paramter at runtime is a good way to clone a different git branch to run the rush job against.&#39;</span>,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="stringliteral">&#39;description&#39;</span>   =&gt; <span class="stringliteral">&#39;Branch to use for jobs that use the [repo][branch] parameter.  This will affect jobs that run the rush clone operation.  Passing this parameter at runtime is a good way to clone a different git branch to run the rush job against.&#39;</span>,</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="stringliteral">&#39;example-value&#39;</span> =&gt; <span class="stringliteral">&#39;develop,master,sprint1,new-feature&#39;</span>,</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      ),       </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      ),</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <span class="stringliteral">&#39;new-branch&#39;</span>   =&gt; array(</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="stringliteral">&#39;description&#39;</span>   =&gt; <span class="stringliteral">&#39;New branch name to use for jobs that use the [repo][new_branch] parameter.  This will affect jobs that run the rush branch operation.  Passing this parameter at runtime is a good way to create new feature branches that start from the branch defined in the rush job.&#39;</span>,</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="stringliteral">&#39;example-value&#39;</span> =&gt; <span class="stringliteral">&#39;new~feature,experiment&#39;</span>,</div>
@@ -198,27 +198,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;See @ref doc-commands-examples</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">## Job Templates {#sec-job-templates}</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">### Environment Based Global Pre and Post Operations {#sec-environment-based-global-pre-post}</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;There are a number of example jobs in the  [RushTemplates](https:<span class="comment">//github.com/seanbuscay/rush/tree/master/RushTemplates) directory.</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;See @ref doc-environment-based-global-pre-post</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;You can use them from the RushTemplates directory or copy them into your own jobs directory and customize them.</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;To see a list of the jobs in the job templates folder run:</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">### Branching Options from the Command Line  {#sec-branching-options-from-command-line}</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;See @ref doc-branching-options-from-command-line</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    drush rush-list --show=jt</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;To see a see a description of the job with information on how it works run:</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">## Job Templates {#sec-job-templates}</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;There are a number of example jobs in the  [RushTemplates](https:<span class="comment">//github.com/seanbuscay/rush/tree/master/RushTemplates) directory.</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    drush rush &lt;job-name&gt; --show=help</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;You can use them from the RushTemplates directory or copy them into your own jobs directory and customize them.</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;For example, to see how tests.filesystem works run:</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;To see a list of the jobs in the job templates folder run:</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    drush rush tests.filesystem --show=help</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    drush rush-list --show=jt</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;To see a see a description of the job with information on how it works run:</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    drush rush &lt;job-name&gt; --show=help</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;For example, to see how tests.filesystem works run:</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    drush rush tests.filesystem --show=help</div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2013 22:47:24 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 5 2013 22:55:38 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -1,5 +1,5 @@
 <map id="rush_op_si" name="rush_op_si">
 <area shape="rect" id="node2" href="$group__site-operations.html#gae399d6845d09fe66da37c5fd9d1e0f80" title="Prepare options for rush_op_si(); a wrapper for drush site&#45;install. " alt="" coords="141,5,291,32"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="339,31,466,57"/>
+<area shape="rect" id="node3" href="$group__output.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="339,31,466,57"/>
 <area shape="rect" id="node4" href="$group__command__helpers.html#ga45cf19e2d0dc2ca561838b88e5c93900" title="A wrapper for drush_invoke_process(). " alt="" coords="169,107,263,133"/>
 </map>

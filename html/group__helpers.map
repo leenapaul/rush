@@ -1,6 +1,7 @@
 <map id="Helper Functions" name="Helper Functions">
 <area shape="rect" id="node1" href="$group__filesystem.html" title="Functions to get, set, and manage file and directory locations. " alt="" coords="176,5,317,32"/>
-<area shape="rect" id="node3" href="$group__get__ops.html" title="Functions to get and parse operations for Drush Rush to execute. " alt="" coords="178,56,315,83"/>
-<area shape="rect" id="node5" href="$group__get__params.html" title="Functions to parse and derive Rush Job and environment parameters. " alt="" coords="177,107,317,133"/>
-<area shape="rect" id="node4" href="$group__command__helpers.html" title="Functions to help with Drush Rush Commands. " alt="" coords="180,157,313,184"/>
+<area shape="rect" id="node4" href="$group__get__ops.html" title="Functions to get and parse operations for Drush Rush to execute. " alt="" coords="178,56,315,83"/>
+<area shape="rect" id="node3" href="$group__output.html" title="Functions to assist with text output. " alt="" coords="191,107,303,133"/>
+<area shape="rect" id="node6" href="$group__get__params.html" title="Functions to parse and derive Rush Job and environment parameters. " alt="" coords="177,157,317,184"/>
+<area shape="rect" id="node5" href="$group__command__helpers.html" title="Functions to help with Drush Rush Commands. " alt="" coords="180,208,313,235"/>
 </map>

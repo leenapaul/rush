@@ -9,7 +9,7 @@
 <area shape="rect" id="node9" href="$group__repo-operations.html#ga77738b12ac69fe8a5c0c2d441d643ad4" title="Run git checkout to checkout the specified branch, tag, or commit ID. " alt="" coords="183,360,335,387"/>
 <area shape="rect" id="node10" href="$group__repo-operations.html#ga3c9cb4c727f602106630260c573278bf" title="Run git clone into the specified directory. " alt="" coords="193,411,324,437"/>
 <area shape="rect" id="node11" href="$group__repo-operations.html#ga2d1fc7713417cb8a5095c22513cb77d1" title="Run git commit &#45;&#45;all with a commit message. " alt="" coords="187,461,330,488"/>
-<area shape="rect" id="node12" href="$group__repo-operations.html#ga1b59a3d03a02b35c085f9397871d77a5" title="Run git checkout &#45;b to create and checkout a new branch with the specified name. " alt="" coords="191,513,327,554"/>
+<area shape="rect" id="node12" href="$group__repo-operations.html#ga1b59a3d03a02b35c085f9397871d77a5" title="Run git checkout &#45;b to create and checkout a new branch. " alt="" coords="191,513,327,554"/>
 <area shape="rect" id="node13" href="$group__repo-operations.html#gaccb5e69cafa6fe745d128bf82635e0c9" title="Run git init in the specified directory. " alt="" coords="201,579,317,605"/>
 <area shape="rect" id="node14" href="$group__repo-operations.html#ga790eea1ca3e3968bce119b4f61bfa94f" title="Run git pull in the specified directory. " alt="" coords="199,629,319,656"/>
 <area shape="rect" id="node15" href="$group__repo-operations.html#ga5588e6526d2c64956de26206e893dc00" title="Run git push in the specified directory. " alt="" coords="195,680,323,707"/>

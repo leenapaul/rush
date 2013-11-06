@@ -1,4 +1,4 @@
 <map id="rush_op_sql_create" name="rush_op_sql_create">
-<area shape="rect" id="node2" href="$group__command__helpers.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="193,5,319,32"/>
+<area shape="rect" id="node2" href="$group__output.html#gad0427b43298aeba049db63439ec6f3a8" title="Helper function to output a consistent error message for empty parameters. " alt="" coords="193,5,319,32"/>
 <area shape="rect" id="node3" href="$group__command__helpers.html#ga45cf19e2d0dc2ca561838b88e5c93900" title="A wrapper for drush_invoke_process(). " alt="" coords="209,56,303,83"/>
 </map>

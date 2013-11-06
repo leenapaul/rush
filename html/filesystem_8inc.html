@@ -25,7 +25,7 @@
   <td id="projectlogo"><img alt="Logo" src="surfboard.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Drush Rush
-   &#160;<span id="projectnumber">.9.0.0</span>
+   &#160;<span id="projectnumber">Drupal.org 7.x-1.0-alpha2 / GitHub .9.2.1</span>
    </div>
    <div id="projectbrief">Drush tools to enhance and improve Drupal development operations and work flow.</div>
   </td>
@@ -105,15 +105,18 @@ Functions</h2></td></tr>
 <tr class="memitem:gab9ed4662e08969fd835eb97b047803f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#gab9ed4662e08969fd835eb97b047803f4">_rush_derive_make_file_path</a> ($params, $make_file= 'default.make')</td></tr>
 <tr class="memdesc:gab9ed4662e08969fd835eb97b047803f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a make file location if it can be found.  <a href="group__filesystem.html#gab9ed4662e08969fd835eb97b047803f4">More...</a><br/></td></tr>
 <tr class="separator:gab9ed4662e08969fd835eb97b047803f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f68783936c970acb133f3ab2a34d5cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#ga5f68783936c970acb133f3ab2a34d5cb">_rush_inspect_directory</a> ($root)</td></tr>
+<tr class="memdesc:ga5f68783936c970acb133f3ab2a34d5cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array of files and directories in a given directory path.  <a href="group__filesystem.html#ga5f68783936c970acb133f3ab2a34d5cb">More...</a><br/></td></tr>
+<tr class="separator:ga5f68783936c970acb133f3ab2a34d5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga05212277ddcb371c81f6911a367073bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#ga05212277ddcb371c81f6911a367073bd">_rush_list_jobs</a> ($root, $directory_name, $rush_dir_name)</td></tr>
+<tr class="memdesc:ga05212277ddcb371c81f6911a367073bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of Rush jobs.  <a href="group__filesystem.html#ga05212277ddcb371c81f6911a367073bd">More...</a><br/></td></tr>
+<tr class="separator:ga05212277ddcb371c81f6911a367073bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae887ebc7c373bbf0209a58bd711dd20b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#gae887ebc7c373bbf0209a58bd711dd20b">rush_check_directories</a> ()</td></tr>
-<tr class="memdesc:gae887ebc7c373bbf0209a58bd711dd20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to confirm important directories exists on the system.  <a href="group__filesystem.html#gae887ebc7c373bbf0209a58bd711dd20b">More...</a><br/></td></tr>
+<tr class="memdesc:gae887ebc7c373bbf0209a58bd711dd20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to confirm important directories exists on the system.  <a href="group__filesystem.html#gae887ebc7c373bbf0209a58bd711dd20b">More...</a><br/></td></tr>
 <tr class="separator:gae887ebc7c373bbf0209a58bd711dd20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga42a80d15a0f8d53694c89532648d5b63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63">rush_get_global_locations</a> ()</td></tr>
 <tr class="memdesc:ga42a80d15a0f8d53694c89532648d5b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract Rush application folder locations.  <a href="group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63">More...</a><br/></td></tr>
 <tr class="separator:ga42a80d15a0f8d53694c89532648d5b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae75a3a92e889b0f2ac8aa709904b3e18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__filesystem.html#gae75a3a92e889b0f2ac8aa709904b3e18">rush_list_files</a> ($root= '.')</td></tr>
-<tr class="memdesc:gae75a3a92e889b0f2ac8aa709904b3e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the directories and files in the specified root directory.  <a href="group__filesystem.html#gae75a3a92e889b0f2ac8aa709904b3e18">More...</a><br/></td></tr>
-<tr class="separator:gae75a3a92e889b0f2ac8aa709904b3e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to get, set, and manage file and directory locations. </p>
@@ -122,7 +125,7 @@ Functions</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 13 2013 22:47:24 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 5 2013 22:55:38 for Drush Rush by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

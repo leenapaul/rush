@@ -1,22 +1,24 @@
 <map id="drush_rush" name="drush_rush">
-<area shape="rect" id="node2" href="$group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd" title="Helper function to print the params associated with the defined show mode. " alt="" coords="172,5,265,32"/>
-<area shape="rect" id="node4" href="$group__command__execution.html#ga46ea807a07b3ce2bfac44a849729f036" title="Run a command through drush_shell_exec(). " alt="" coords="144,56,293,83"/>
-<area shape="rect" id="node5" href="$group__command__execution.html#gaae48a8d93bfc74f0f7913e45b7674933" title="Execute the defined rush function. " alt="" coords="150,107,287,133"/>
-<area shape="rect" id="node6" href="$group__get__ops.html#ga544e7229e2a6c13499001cd91cd9dd8e" title="Parse rush operations files and return an array of operations. " alt="" coords="147,157,291,184"/>
-<area shape="rect" id="node10" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters. " alt="" coords="156,208,281,235"/>
-<area shape="rect" id="node20" href="$group__command__execution.html#ga268f985dc5c8da69563727444ea8f6c4" title="Run another Rush Job via drush_shell_exec(). " alt="" coords="164,259,273,285"/>
-<area shape="rect" id="node21" href="$group__command__execution.html#ga09020ad6091b3abecc1f02e412ea6518" title="Print a rush message through drush_log(). " alt="" coords="146,309,291,336"/>
-<area shape="rect" id="node3" href="$group__command__helpers.html#ga38d8495fc784ae97cc56026997ef570f" title="Helper function used to style messages to the console. " alt="" coords="359,5,524,32"/>
-<area shape="rect" id="node7" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="353,153,530,180"/>
-<area shape="rect" id="node9" href="$group__get__ops.html#ga6e206a41734390783ce02978e45fa76e" title="Parse a rush.ini file. " alt="" coords="352,103,531,129"/>
-<area shape="rect" id="node8" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory. " alt="" coords="639,128,748,155"/>
-<area shape="rect" id="node11" href="$group__get__params.html#gac41c33874c97642471b59de59613356f" title="An array merge function which does not change data types during merge. " alt="" coords="341,205,541,246"/>
-<area shape="rect" id="node12" href="$group__get__params.html#ga31dd7ffa81ecf01ffe2ade129ec9998d" title="Derive missing parameters. " alt="" coords="355,271,528,297"/>
-<area shape="rect" id="node19" href="$group__get__params.html#ga1d904fa261fedd26a696892343d2b062" title="Parse a params.ini file. " alt="" coords="387,321,496,348"/>
-<area shape="rect" id="node13" href="$group__get__params.html#ga443fac6061c92d86acfcd7192dbdb3f9" title="Derive missing build parameters. " alt="" coords="607,179,780,221"/>
-<area shape="rect" id="node15" href="$group__get__params.html#ga5d122a82e279e783ea3767d138424610" title="Derive missing db parameters. " alt="" coords="595,245,791,272"/>
-<area shape="rect" id="node16" href="$group__get__params.html#ga9af08c808c5ddd9d59fe9c550e55ea65" title="Derive missing env parameters. " alt="" coords="592,296,795,323"/>
-<area shape="rect" id="node17" href="$group__get__params.html#ga71d53df6ee2f78dbb1e5cd3a8f926fe4" title="Derive missing repo parameters. " alt="" coords="589,347,797,373"/>
-<area shape="rect" id="node18" href="$group__get__params.html#gae7e40e20b79c96a7ed07c195f2a69cae" title="Set some default si parameters if they are not present in a params file. " alt="" coords="598,397,789,424"/>
-<area shape="rect" id="node14" href="$group__filesystem.html#gab9ed4662e08969fd835eb97b047803f4" title="Return a make file location if it can be found. " alt="" coords="845,187,1043,213"/>
+<area shape="rect" id="node2" href="$group__filesystem.html#ga05212277ddcb371c81f6911a367073bd" title="Return a list of Rush jobs. " alt="" coords="163,5,274,32"/>
+<area shape="rect" id="node4" href="$group__command__helpers.html#gaf099908ca74dada588a9e0753ddfdfbd" title="Helper function to print the params associated with the defined show mode. " alt="" coords="172,56,265,83"/>
+<area shape="rect" id="node6" href="$group__command__execution.html#ga46ea807a07b3ce2bfac44a849729f036" title="Run a command through drush_shell_exec(). " alt="" coords="144,107,293,133"/>
+<area shape="rect" id="node7" href="$group__command__execution.html#gaae48a8d93bfc74f0f7913e45b7674933" title="Execute the defined rush function. " alt="" coords="150,157,287,184"/>
+<area shape="rect" id="node8" href="$group__filesystem.html#ga42a80d15a0f8d53694c89532648d5b63" title="Extract Rush application folder locations. " alt="" coords="353,259,530,285"/>
+<area shape="rect" id="node10" href="$group__get__ops.html#ga544e7229e2a6c13499001cd91cd9dd8e" title="Parse rush operations files and return an array of operations. " alt="" coords="147,208,291,235"/>
+<area shape="rect" id="node12" href="$group__get__params.html#gad7711d36a38bbc35b89507a009e6f88c" title="Parse rush parameter files and return an array of parameters. " alt="" coords="156,309,281,336"/>
+<area shape="rect" id="node22" href="$group__command__execution.html#ga268f985dc5c8da69563727444ea8f6c4" title="Run another Rush Job via drush_shell_exec(). " alt="" coords="164,360,273,387"/>
+<area shape="rect" id="node23" href="$group__command__execution.html#ga09020ad6091b3abecc1f02e412ea6518" title="Print a rush message through drush_log(). " alt="" coords="146,411,291,437"/>
+<area shape="rect" id="node3" href="$group__filesystem.html#ga5f68783936c970acb133f3ab2a34d5cb" title="Return an array of files and directories in a given directory path. " alt="" coords="359,5,523,32"/>
+<area shape="rect" id="node5" href="$group__output.html#ga38d8495fc784ae97cc56026997ef570f" title="Style messages for output to the console. " alt="" coords="359,56,524,83"/>
+<area shape="rect" id="node9" href="$group__command__helpers.html#ga1884a6ad32bf8266cb71f804c1f38522" title="Helper function to return the path to the Drush Rush module directory. " alt="" coords="639,259,748,285"/>
+<area shape="rect" id="node11" href="$group__get__ops.html#ga6e206a41734390783ce02978e45fa76e" title="Parse a rush.ini file. " alt="" coords="352,208,531,235"/>
+<area shape="rect" id="node13" href="$group__get__params.html#gac41c33874c97642471b59de59613356f" title="An array merge function which does not change data types during merge. " alt="" coords="341,361,541,402"/>
+<area shape="rect" id="node14" href="$group__get__params.html#ga31dd7ffa81ecf01ffe2ade129ec9998d" title="Derive missing parameters. " alt="" coords="355,427,528,453"/>
+<area shape="rect" id="node21" href="$group__get__params.html#ga1d904fa261fedd26a696892343d2b062" title="Parse a params.ini file. " alt="" coords="387,309,496,336"/>
+<area shape="rect" id="node15" href="$group__get__params.html#ga443fac6061c92d86acfcd7192dbdb3f9" title="Derive missing build parameters. " alt="" coords="607,361,780,402"/>
+<area shape="rect" id="node17" href="$group__get__params.html#ga5d122a82e279e783ea3767d138424610" title="Derive missing db parameters. " alt="" coords="595,427,791,453"/>
+<area shape="rect" id="node18" href="$group__get__params.html#ga9af08c808c5ddd9d59fe9c550e55ea65" title="Derive missing env parameters. " alt="" coords="592,477,795,504"/>
+<area shape="rect" id="node19" href="$group__get__params.html#ga71d53df6ee2f78dbb1e5cd3a8f926fe4" title="Derive missing repo parameters. " alt="" coords="589,528,797,555"/>
+<area shape="rect" id="node20" href="$group__get__params.html#gae7e40e20b79c96a7ed07c195f2a69cae" title="Set some default si parameters if they are not present in a params file. " alt="" coords="598,309,789,336"/>
+<area shape="rect" id="node16" href="$group__filesystem.html#gab9ed4662e08969fd835eb97b047803f4" title="Return a make file location if it can be found. " alt="" coords="845,368,1043,395"/>
 </map>
